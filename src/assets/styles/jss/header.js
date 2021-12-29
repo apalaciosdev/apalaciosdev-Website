@@ -1,7 +1,15 @@
 
-
-export default{
+const header = {
   letras: {
-    color: 'blue'
+    color: 'blue',
+   
+  },
+  
+  generalDiv: {
+    display: 'flex',
+    justifyContent: 'center',
+    width: 900
   }
 }
+
+export default header
