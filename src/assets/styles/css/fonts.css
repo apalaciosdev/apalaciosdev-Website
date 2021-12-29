@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Poppins-ExtraBold";
   src: local("Poppins-ExtraBold"),
-   url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+   url("../../fonts/Poppins-ExtraBold.ttf") format("truetype");
 
 }
 
@@ -9,23 +9,23 @@
 @font-face {
   font-family: "Aller-Bold";
   src: local("Aller-Bold"),
-    url("../fonts/Aller-Bold.ttf") format("truetype");
+    url("../../fonts/Aller-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Aller-Display";
   src: local("Aller-Display"),
-    url("../fonts/Aller-Display.ttf") format("truetype");
+    url("../../fonts/Aller-Display.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Aller-Light";
   src: local("Aller-Light"),
-    url("../fonts/Aller-Light.ttf") format("truetype");
+    url("../../fonts/Aller-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Aller-Regular";
   src: local("Aller-Regular"),
-    url("../fonts/Aller-Regular.ttf") format("truetype");
+    url("../../fonts/Aller-Regular.ttf") format("truetype");
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import header from '../assets/css/header'
+import header from '../assets/styles/jss/header'
 import {createUseStyles} from 'react-jss'
 
 const Header = ({data}) => {
