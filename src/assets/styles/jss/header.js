@@ -16,7 +16,7 @@ const header = {
   },
   
   surnameTitle: {
-    color: Colors.winter,
+    color: Colors.darkOcean,
   },
   
   generalDiv: {
@@ -24,7 +24,7 @@ const header = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    width: '100vw',
+    width: '100%',
     height: '110vh',
    
   },

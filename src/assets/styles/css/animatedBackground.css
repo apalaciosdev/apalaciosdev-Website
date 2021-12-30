@@ -2,19 +2,6 @@
 
 
 
-.context {
-    width: 100%;
-    position: absolute;
-    top:50vh;
-    
-}
-
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
-
 
 .area{
     background: #b0b0be;  
@@ -33,6 +20,10 @@
     height: 100%;
     overflow: hidden;
     z-index: 1;
+}
+
+.circles ul{
+    width: 100%;
 }
 
 .circles li{
