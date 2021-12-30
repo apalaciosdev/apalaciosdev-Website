@@ -11,6 +11,7 @@ const navbar = {
     width: '100%',
     height: 50,
     fontFamily: "Aller-Bold",
+    zIndex: 10
   },
 
   ul: {

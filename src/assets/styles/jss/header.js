@@ -2,7 +2,8 @@ import {Colors} from '../colors'
 
 const header = {
   letras: {
-    fontFamily: "Poppins-ExtraBold"
+    fontFamily: "Poppins-ExtraBold",
+    zIndex: 2
   },
 
   nameTitle: {
@@ -10,7 +11,8 @@ const header = {
     fontSize: 60,
     textAlign: 'center',
     lineHeight: 1,
-    marginTop: -25
+    marginTop: -25,
+    zIndex: 2
   },
   
   surnameTitle: {
@@ -24,7 +26,7 @@ const header = {
     flexDirection: 'column',
     width: '100vw',
     height: '110vh',
-    backgroundColor: Colors.navy,
+   
   },
 
 }
