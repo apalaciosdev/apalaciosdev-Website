@@ -1,8 +1,9 @@
 export const data = {
   "main":{
-    "name": "AARON   PALACIOS,",
+    "name": "AARON",
+    "surname": "PALACIOS",
     "welcomeTitle": "Hi, I am",
-    "descriptionTitle": "a Frontend Developer in ❤️ with JS"
+    "descriptionTitle": "a Junior Developer in ❤️ with JS"
   }
 
 }

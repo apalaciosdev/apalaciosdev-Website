@@ -10,8 +10,8 @@ const Header = ({data}) => {
   return (
     <div className={classes.generalDiv}>
       <p className={classes.letras}>{data.welcomeTitle}</p>
-      <p className='name'>{data.name}</p>
-      <p>{data.descriptionTitle}</p>
+      <h2 className={classes.nameTitle}>{data.name} <span className={classes.surnameTitle}>{data.surname}</span></h2>
+      <p className={classes.letras}>{data.descriptionTitle}</p>
     </div>
   )
 }
