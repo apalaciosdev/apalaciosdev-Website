@@ -2,7 +2,7 @@ import {Colors} from '../colors'
 
 const navbar = {
   body: {
-    backgroundColor: Colors.navy,
+    backgroundColor: Colors.darkAbsolute,
     color: 'white',
     display: 'flex',
     justifyContent: 'center',
@@ -16,14 +16,17 @@ const navbar = {
 
   ul: {
     display: 'inline-block',
-    listStyle: 'none'
+    listStyle: 'none',
+    
   },
 
   li: {
     float: 'left',
     paddingLeft: 20,
     paddingRight: 20,
-  }
+  
+  },
+
 
 }
 

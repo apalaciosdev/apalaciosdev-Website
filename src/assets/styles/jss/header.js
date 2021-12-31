@@ -3,7 +3,7 @@ import {Colors} from '../colors'
 const header = {
   letras: {
     fontFamily: "Poppins-ExtraBold",
-    zIndex: 2
+    zIndex: 2,
   },
 
   nameTitle: {

@@ -1,6 +1,5 @@
 
+.active {
 
-.name{
-  font-family: "Poppins-ExtraBold";
-  font-size: 60px;
+  color: #68C4FD;
 }

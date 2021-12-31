@@ -10,7 +10,7 @@ const Header = ({data}) => {
   
 
   return (
-    <div class="area" >
+    <div class="area" id='header'>
       <div className={classes.generalDiv}>
         <p className={classes.letras}>{data.welcomeTitle}</p>
         <h2 className={classes.nameTitle}>{data.name} <span className={classes.surnameTitle}>{data.surname}</span></h2>
@@ -33,13 +33,13 @@ const Header = ({data}) => {
         <p className="scrolldown" className={classes.button}>
           
         <Link
-    activeClass="active"
-    to="about"
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={1000}
->sis</Link>
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+        >sis</Link>
         </p>
       </div >
     </div>
