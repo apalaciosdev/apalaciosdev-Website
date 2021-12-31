@@ -33,7 +33,7 @@
     width: 20px;
     height: 20px;
     background: rgba(34, 33, 33, 0.2);
-    animation: animate 55s linear infinite;
+    animation: animate 35s linear infinite;
     bottom: -150px;
   
     
@@ -52,7 +52,7 @@
     width: 20px;
     height: 20px;
     animation-delay: 2s;
-    animation-duration: 12s;
+    animation-duration: 22s;
 }
 
 .circles li:nth-child(3){
@@ -67,7 +67,7 @@
     width: 60px;
     height: 60px;
     animation-delay: 0s;
-    animation-duration: 18s;
+    animation-duration: 28s;
 }
 
 .circles li:nth-child(5){
@@ -117,7 +117,7 @@
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
-        border-radius: 0;
+        border-radius: 5%;
     }
 
     100%{

@@ -25,9 +25,17 @@ const header = {
     alignItems: 'center',
     flexDirection: 'column',
     width: '100%',
-    height: '110vh',
+    height: '120vh',
     overflow:'hidden'
   },
+
+  button: {
+    borderRadius: 100,
+    fontSize: 20,
+    width: 50,
+    height: 50,
+    zIndex: 2
+  }
 
 }
 
