@@ -16,7 +16,7 @@ const header = {
   },
   
   surnameTitle: {
-    color: Colors.darkOcean,
+    color: Colors.winter,
   },
   
   generalDiv: {
@@ -26,7 +26,7 @@ const header = {
     flexDirection: 'column',
     width: '100%',
     height: '110vh',
-   
+    overflow:'hidden'
   },
 
 }
