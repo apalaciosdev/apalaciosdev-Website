@@ -25,7 +25,7 @@ const header = {
     alignItems: 'center',
     flexDirection: 'column',
     width: '100%',
-    height: '120vh',
+    height: '110vh',
     overflow:'hidden'
   },
 

@@ -24,7 +24,9 @@ const navbar = {
     float: 'left',
     paddingLeft: 20,
     paddingRight: 20,
-  
+    '&:hover': {
+      cursor: 'pointer'
+   },
   },
 
 
