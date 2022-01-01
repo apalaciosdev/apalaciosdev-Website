@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <section id="about">
 
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat dolores fuga earum commodi excepturi cupiditate vel impedit distinctio nulla facilis laudantium, illo nam asperiores? Ipsam minus laudantium ab delectus vel.
+      <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat dolores fuga earum commodi excepturi cupiditate vel impedit distinctio nulla facilis laudantium, illo nam asperiores? Ipsam minus laudantium ab delectus vel.
       Recusandae sint laborum quis commodi facere! Quibusdam quis praesentium officiis ad harum eius eligendi quidem voluptatibus consectetur omnis nesciunt impedit nisi commodi, placeat magni ex, ducimus blanditiis, exercitationem neque asperiores.
       Aperiam iusto praesentium pariatur id corrupti placeat libero, fuga quaerat modi tempora, in incidunt dicta, veniam blanditiis similique maiores animi? Consectetur rem placeat perferendis assumenda? Repudiandae commodi obcaecati ea? Aliquid!
       Quae placeat libero quia rem dolore voluptatibus error, possimus aut necessitatibus. Deserunt molestias hic ab deleniti distinctio dolor accusantium! Eius dolorem maiores esse voluptatibus voluptates possimus exercitationem. Quibusdam, atque? Ullam?

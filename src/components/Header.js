@@ -23,13 +23,13 @@ const Header = ({ data }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={1000}
+          duration={1500}
         >
           
         <FaAngleDoubleDown className="scroll-down"/>
          
         </Link>
-        {/* <ul class="circles">  animate__animated animate__fadeInLeft
+       {/* <ul class="circles"> 
           <li></li>
           <li></li>
           <li></li>
@@ -40,7 +40,7 @@ const Header = ({ data }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul> */}
+        </ul>  */}
 
 
       </div>
