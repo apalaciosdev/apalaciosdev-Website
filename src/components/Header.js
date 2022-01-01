@@ -1,10 +1,13 @@
 import React from "react";
 import header from "../assets/styles/jss/header";
+
+
 import { createUseStyles } from "react-jss";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { FaAngleDoubleDown } from "react-icons/fa";
+import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
+import ButtonLink from './ButtonLink';
 
-const Header = ({ data }) => {
+const Header = ({ data, buttonData }) => {
   const useStyles = createUseStyles(header);
   const classes = useStyles();
 
@@ -17,6 +20,11 @@ const Header = ({ data }) => {
           <span className={classes.surnameTitle}>{data.surname}</span>
         </h2>
         <p className={`${classes.letras} ${'animate__animated animate__fadeInUp  animate__delay-2s'}`}>{data.descriptionTitle}</p>
+        
+        <ButtonLink type={'github'}></ButtonLink>
+        <ButtonLink type={'code'}></ButtonLink>
+      
+        
         <Link
           activeClass="active"
           to="about"
@@ -25,10 +33,9 @@ const Header = ({ data }) => {
           offset={-70}
           duration={1500}
         >
-          
-        <FaAngleDoubleDown className="scroll-down"/>
-         
+          <FaAngleDoubleDown className="scroll-down"/>
         </Link>
+
        {/* <ul class="circles"> 
           <li></li>
           <li></li>
