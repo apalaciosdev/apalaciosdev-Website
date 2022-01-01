@@ -4,14 +4,15 @@ import { BiCodeAlt } from "react-icons/bi";
 
 import buttonLink from '../assets/styles/jss/buttonLink'
 import {createUseStyles} from 'react-jss'
+import { Colors } from '../assets/styles/colors';
 
 
 
 const ButtonLink = ({type, colorType}) => {
+  console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
   
-  const name = type;
   return (
     <div>
       {(() => {
