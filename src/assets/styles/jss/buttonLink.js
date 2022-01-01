@@ -16,11 +16,14 @@ const ButtonLink = {
       : colorType === 'navy' ? Colors.navy 
       : Colors.navy,
     
-    color: 'white'
+    color: 'white',
+    display: 'flex',
+    justifyContent: 'center'
   },
 
   butonIcon: {
-   
+   display: 'flex',
+    justifyContent: 'center'
   }
 
 }
