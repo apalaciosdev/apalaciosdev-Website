@@ -7,10 +7,9 @@ import {createUseStyles} from 'react-jss'
 
 
 
-const ButtonLink = ({type, color}) => {
+const ButtonLink = ({type, colorType}) => {
   const useStyles = createUseStyles(buttonLink);
-  const color1 = 'red'
-  const css = useStyles(color);
+  const css = useStyles(colorType);
   
   const name = type;
   return (

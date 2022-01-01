@@ -8,8 +8,7 @@ const ButtonLink = {
     fontSize: 20,
     zIndex: 2,
     cursor: 'pointer',
-    backgroundColor: color => color
-    
+    backgroundColor: colorType => Colors.colorType
   }
 
 }
