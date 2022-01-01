@@ -3,9 +3,7 @@ import {Colors} from '../colors'
 
 const ButtonLink = {
 
-  buttonDiv: {
-    display: 'flex'
-  },
+ 
   
   button: {
     borderRadius: 100,
@@ -16,7 +14,13 @@ const ButtonLink = {
     backgroundColor: colorType => 
       colorType === 'winter' ? Colors.winter 
       : colorType === 'navy' ? Colors.navy 
-      : Colors.navy
+      : Colors.navy,
+    
+    color: 'white'
+  },
+
+  butonIcon: {
+   
   }
 
 }

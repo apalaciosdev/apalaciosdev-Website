@@ -35,7 +35,12 @@ const header = {
     width: 50,
     height: 50,
     zIndex: 2
-  }
+  },
+
+  buttonDiv: {
+    display: 'flex',
+    justifyContent: 'center'
+  },
 
 }
 
