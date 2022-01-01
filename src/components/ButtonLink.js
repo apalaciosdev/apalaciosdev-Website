@@ -7,15 +7,16 @@ import {createUseStyles} from 'react-jss'
 
 
 
-const ButtonLink = ({ type }) => {
+const ButtonLink = ({type, color}) => {
   const useStyles = createUseStyles(buttonLink);
-  const css = useStyles();
+  const color1 = 'red'
+  const css = useStyles(color);
   
   const name = type;
   return (
     <div>
       {(() => {
-        switch (name) {
+        switch (type) {
           case "github":
             return  <button className={css.button}><FaGithub/> Github</button>;
 
