@@ -39,7 +39,7 @@ const header = {
 
   buttonDiv: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
 
 }
