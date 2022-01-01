@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Navbar from './components/Navbar';
 import {data} from './resumeData.js'
 
+
+
 function App() {
   return (
     <div className="App">
