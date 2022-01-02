@@ -15,12 +15,13 @@ const ButtonLink = {
       colorType === 'winter' ? Colors.winter 
       : colorType === 'navy' ? Colors.navy 
       : Colors.navy,
-    border: 1, 'solid': colorType => 
+
+    borderColor: colorType => 
       colorType === 'winter' ? Colors.winter 
       : colorType === 'navy' ? Colors.navy 
       : Colors.navy,
 
-   
+   borderStyle: 'solid',
     
     color: 'white',
     display: 'flex',
@@ -36,17 +37,17 @@ const ButtonLink = {
     cursor: 'pointer',
     boxShadow: 'inset 0 0 0 0 #FFFF',
   
-    transition: ['ease-in', '0.8s'],
-
+    transition: ['ease-in', '0.5s'],
+    
     '&:hover': {
       boxShadow: 'inset 400px 0 0 0 #FFFF',
-      color: 'black'
+      color: 'black',
     }
  
   },
 
   aButton: {
-    color: 'white',
+    
     display: 'flex',
     justifyContent: 'center',
     fontSize: 20,
