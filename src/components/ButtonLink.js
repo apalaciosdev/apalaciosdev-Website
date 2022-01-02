@@ -26,16 +26,16 @@ const ButtonLink = ({type, colorType}) => {
         switch (type) {
           case "github":
             return(  
-              <button className={css.button} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"github"} className={css.icon}/>
+              <button className={css.buttonT2} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"github"} bg={"buttonT2"}/>
                 <a className={css.aButton}>Github</a>
               </button>
             );
 
           case "code":
             return (
-              <button className={css.button} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"code"} className={css.icon}/>
+              <button className={css.buttonT1} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"code"}/>
                 <a className={css.aButton}>Code</a>
               </button>
             );

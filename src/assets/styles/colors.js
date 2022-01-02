@@ -4,5 +4,6 @@ export const Colors = {
   darkOcean: '#406882',
   winter: '#6998AB',
   cold: '#B1D0E0',
+  neon: '#68C4FD',
 };
 
