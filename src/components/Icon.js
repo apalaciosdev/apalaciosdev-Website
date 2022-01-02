@@ -20,7 +20,7 @@ const Icon = ({iconType}) => {
           case "code":
             return (
               <IconContext.Provider value={{ color: "white", size: "25px" }}>
-                <FaGithub />
+                <BiCodeAlt />
               </IconContext.Provider>
             );
 

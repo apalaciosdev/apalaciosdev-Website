@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub,} from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 
+import {data} from '../resumeData.js'
+
 
 import buttonLink from '../assets/styles/jss/buttonLink'
 import {createUseStyles} from 'react-jss'
@@ -15,25 +17,28 @@ const ButtonLink = ({type, colorType}) => {
   console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
-  
+
+  console.log(data.links.github)
+
   return (
     <div>
       {(() => {
         switch (type) {
           case "github":
-            return  <button className={css.button}>
-              <Icon iconType={"github"}/>
-            
-              
-              Github</button>;
+            return(  
+              <button className={css.button} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"github"} className={css.icon}/>
+                <a className={css.aButton}>Github</a>
+              </button>
+            );
 
           case "code":
-            return <button className={css.button}>
-              <IconContext.Provider value={{ color: "white", size: '25px' }}>
-              <BiCodeAlt/> 
-                
-            </IconContext.Provider>
-              Projects</button>;
+            return (
+              <button className={css.button} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"code"} className={css.icon}/>
+                <a className={css.aButton}>Code</a>
+              </button>
+            );
 
           default:
             return <div>You are a User.</div>;
