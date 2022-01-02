@@ -15,15 +15,12 @@ const ButtonLink = {
       colorType === 'winter' ? Colors.winter 
       : colorType === 'navy' ? Colors.navy 
       : Colors.navy,
+    border: 1, 'solid': colorType => 
+      colorType === 'winter' ? Colors.winter 
+      : colorType === 'navy' ? Colors.navy 
+      : Colors.navy,
 
-    border: { 
-      width: 3,
-      style: 'solid',
-      color: colorType => 
-    colorType === 'winter' ? Colors.winter 
-    : colorType === 'navy' ? Colors.navy 
-    : Colors.navy
-    },
+   
     
     color: 'white',
     display: 'flex',
