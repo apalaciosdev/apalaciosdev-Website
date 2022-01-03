@@ -40,6 +40,14 @@ const Button2 = ({type, colorType, buttonType}) => {
                 <a className={css.aButton}>Github</a>
               </button>
             );
+          
+          case "linkedin":
+            return (
+              <button className={css.type2} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"linkedin"}/>
+                <a className={css.aButton}>LinkedIn</a>
+              </button>
+            );
 
           default:
             return(

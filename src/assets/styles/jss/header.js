@@ -29,17 +29,12 @@ const header = {
     overflow:'hidden'
   },
 
-  button: {
-    borderRadius: 100,
-    fontSize: 20,
-    width: 50,
-    height: 50,
-    zIndex: 2
-  },
+  
 
   buttonDiv: {
     display: 'flex',
     justifyContent: 'center',
+    zIndex: 4
   },
 
 }

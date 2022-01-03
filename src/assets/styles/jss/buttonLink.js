@@ -18,8 +18,9 @@ const ButtonLink = {
     marginLeft: 5,
     marginRight: 5,
     paddingTop: 10,
-    width: 100,
+    width: 120,
     height: 50,
+    zIndex: 2,
   
     transition: ['ease-in', '0.2s'],
     
@@ -65,8 +66,9 @@ const ButtonLink = {
     marginLeft: 5,
     marginRight: 5,
     paddingTop: 8,
-    width: 100,
+    width: 120,
     height: 50,
+    
   
     transition: ['ease-in', '0.2s'],
     

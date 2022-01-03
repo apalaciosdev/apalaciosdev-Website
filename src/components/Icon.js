@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IconContext } from "react-icons";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 
 import icon from "../assets/styles/jss/icon";
@@ -30,6 +30,13 @@ const Icon = ({iconType, bg, bgHover}) => {
             return (
               <IconContext.Provider value={{className: css.icon}}>
                 <BiCodeAlt />
+              </IconContext.Provider>
+            );
+          
+          case "linkedin":
+            return (
+              <IconContext.Provider value={{className: css.icon}}>
+                <FaLinkedin />
               </IconContext.Provider>
             );
 
