@@ -5,7 +5,8 @@ import header from "../assets/styles/jss/header";
 import { createUseStyles } from "react-jss";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
-import ButtonLink from './ButtonLink';
+import Button1 from './buttons/Button1';
+import Button2 from './buttons/Button2';
 
 const Header = ({ data, buttonData }) => {
   const useStyles = createUseStyles(header);
@@ -22,8 +23,8 @@ const Header = ({ data, buttonData }) => {
         <p className={`${classes.letras} ${'animate__animated animate__fadeInUp  animate__delay-2s'}`}>{data.descriptionTitle}</p>
         
         <div className={`${classes.buttonDiv} ${'animate__animated animate__fadeIn  animate__delay-4s'}`}>
-          <ButtonLink type={'code'} colorType={'neon'} buttonType={'type1'}></ButtonLink>
-          <ButtonLink type={'github'} colorType={'navy'}></ButtonLink>
+          <Button1 type={'github'} colorType={'navy'}></Button1>
+          <Button2 type={'code'} colorType={'neon'} buttonType={'type1'}>hola</Button2>
         </div>
       
         

@@ -55,15 +55,16 @@ const ButtonLink = {
     zIndex: 3,
     cursor: 'pointer',
     float: 'left',
-    backgroundColor: Colors.deadGrey,
-    border: [1, 'solid', Colors.deadGrey],
+    backgroundColor: 'transparent',
+    color: 'black',
+    border: [3, 'solid', Colors.deadGrey],
 
-    color: 'white',
+   
     display: 'flex',
     justifyContent: 'center',
     marginLeft: 5,
     marginRight: 5,
-    paddingTop: 10,
+    paddingTop: 8,
     width: 100,
     height: 50,
   
