@@ -22,7 +22,7 @@ const Header = ({ data, buttonData }) => {
         <p className={`${classes.letras} ${'animate__animated animate__fadeInUp  animate__delay-2s'}`}>{data.descriptionTitle}</p>
         
         <div className={`${classes.buttonDiv} ${'animate__animated animate__fadeIn  animate__delay-4s'}`}>
-          <ButtonLink type={'code'} colorType={'winter'}></ButtonLink>
+          <ButtonLink type={'code'} colorType={'neon'} buttonType={'type1'}></ButtonLink>
           <ButtonLink type={'github'} colorType={'navy'}></ButtonLink>
         </div>
       

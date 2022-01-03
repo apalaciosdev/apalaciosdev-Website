@@ -13,12 +13,13 @@ import Icon from './Icon';
 
 
 
-const ButtonLink = ({type, colorType}) => {
+const ButtonLink = ({type, colorType, buttonType}) => {
   console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
 
-  console.log(data.links.github)
+  const typeBut = `${buttonType}`
+  console.log(buttonType)
 
   return (
     <div>
@@ -26,17 +27,17 @@ const ButtonLink = ({type, colorType}) => {
         switch (type) {
           case "github":
             return(  
-              <button className={css.buttonT2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"github"} bg={'white'} bgHover={'neon'}/>
-                <a className={css.aButton}>Github</a>
+              <button className={`css.${typeBut}`} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"code"}/>
+                <a className={css.aButton}>Code</a>
               </button>
             );
 
           case "code":
             return (
-              <button className={css.buttonT1} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"code"}/>
-                <a className={css.aButton}>Code</a>
+              <button className={css.type1} onClick={() => (window.open(data.links.github))}>
+                <Icon iconType={"github"}/>
+                <a className={css.aButton}>Github</a>
               </button>
             );
 
