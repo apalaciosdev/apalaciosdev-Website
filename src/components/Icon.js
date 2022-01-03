@@ -4,12 +4,16 @@ import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 
-import { Colors } from '../assets/styles/colors';
+import icon from "../assets/styles/jss/icon";
+import { createUseStyles } from "react-jss";
 
 
 
-const Icon = ({iconType, bg}) => {
+const Icon = ({iconType, bg, bgHover}) => {
+  const props = {bg, bgHover}
 
+  const useStyles = createUseStyles(icon);
+  const css = useStyles(props);
 
   return (
     <div>
@@ -17,14 +21,14 @@ const Icon = ({iconType, bg}) => {
         switch (iconType) {
           case "github":
             return (
-              <IconContext.Provider value={{ color: bg, size: "25px" }}>
+              <IconContext.Provider value={{className: css.icon}}>
                 <FaGithub />
               </IconContext.Provider>
             );
 
           case "code":
             return (
-              <IconContext.Provider value={{ color: "white", size: "25px" }}>
+              <IconContext.Provider value={{className: css.icon}}>
                 <BiCodeAlt />
               </IconContext.Provider>
             );

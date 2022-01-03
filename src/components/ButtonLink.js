@@ -27,7 +27,7 @@ const ButtonLink = ({type, colorType}) => {
           case "github":
             return(  
               <button className={css.buttonT2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"github"} bg={'white'}/>
+                <Icon iconType={"github"} bg={'white'} bgHover={'neon'}/>
                 <a className={css.aButton}>Github</a>
               </button>
             );

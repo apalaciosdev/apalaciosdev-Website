@@ -6,7 +6,7 @@ export const Colors = {
   winter: '#6998AB',
   cold: '#B1D0E0',
   neon: '#68C4FD',
-  lightGrey: '#ECEFFC'
-
+  lightGrey: '#ECEFFC',
+  white: '#FFFFFF',
 };
 
