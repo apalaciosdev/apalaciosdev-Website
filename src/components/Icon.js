@@ -4,7 +4,12 @@ import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 
-const Icon = ({iconType}) => {
+import { Colors } from '../assets/styles/colors';
+
+
+
+const Icon = ({iconType, bg}) => {
+
 
   return (
     <div>
@@ -12,7 +17,7 @@ const Icon = ({iconType}) => {
         switch (iconType) {
           case "github":
             return (
-              <IconContext.Provider value={{ color: "white", size: "25px" }}>
+              <IconContext.Provider value={{ color: bg, size: "25px" }}>
                 <FaGithub />
               </IconContext.Provider>
             );
