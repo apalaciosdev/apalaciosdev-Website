@@ -21,7 +21,9 @@ const icon = {
         ? Colors.lightGrey
         : props.bg === "white"
         ? Colors.white
-        : props.bg === "white",
+        : props.bg === "blueLinked"
+        ? Colors.blueLinked
+        : props.bg === "blueLinked",
     size: "25px",
     marginTop: 4,
     marginRight: 4,
@@ -46,7 +48,9 @@ const icon = {
       ? Colors.lightGrey
       : props.bgHover === "white"
       ? Colors.white
-      : props.bgHover === "white",
+      : props.bgHover === "blueLinked"
+      ? Colors.blueLinked
+      : props.bgHover === "blueLinked",
       size: "25px",
     },
   },

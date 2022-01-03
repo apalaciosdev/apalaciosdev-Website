@@ -8,5 +8,6 @@ export const Colors = {
   neon: '#68C4FD',
   lightGrey: '#ECEFFC',
   white: '#FFFFFF',
+  blueLinked: '#0A66C2'
 };
 

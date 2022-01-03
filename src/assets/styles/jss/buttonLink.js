@@ -45,7 +45,9 @@ const ButtonLink = {
       ? Colors.lightGrey
       : colorType === "white"
       ? Colors.white
-      : colorType === "white",
+      : colorType === "blueLinked"
+      ? Colors.blueLinked
+      : colorType === "blueLinked",
     }
  
   },
@@ -93,7 +95,9 @@ const ButtonLink = {
       ? Colors.lightGrey
       : colorType === "white"
       ? Colors.white
-      : colorType === "white",
+      : colorType === "blueLinked"
+      ? Colors.blueLinked
+      : colorType === "blueLinked",
     }
   },
 

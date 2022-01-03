@@ -23,8 +23,8 @@ const Header = ({ data, buttonData }) => {
         <p className={`${classes.letras} ${'animate__animated animate__fadeInUp  animate__delay-2s'}`}>{data.descriptionTitle}</p>
         
         <div className={`${classes.buttonDiv} ${'animate__animated animate__fadeIn  animate__delay-4s'}`}>
-          <Button1 type={'github'} colorType={'navy'}></Button1>
-          <Button2 type={'linkedin'} colorType={'neon'}></Button2>
+          <Button1 type={'github'} colorType={'lightGrey'}></Button1>
+          <Button2 type={'linkedin'} colorType={'blueLinked'}></Button2>
         </div>
       
         
@@ -39,7 +39,7 @@ const Header = ({ data, buttonData }) => {
           <FaAngleDoubleDown className="scroll-down"/>
         </Link>
 
-       <ul class="circles"> 
+       {/* <ul class="circles"> 
           <li></li>
           <li></li>
           <li></li>
@@ -50,7 +50,7 @@ const Header = ({ data, buttonData }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>  
+        </ul>   */}
 
 
       </div>

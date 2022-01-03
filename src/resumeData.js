@@ -8,6 +8,7 @@ export const data = {
 
   "links": {
     "github": "https://github.com/apalaciosdev",
+    "linkedin": "https://www.linkedin.com/in/aaron-palacios-olea-1b16221b3/",
   }
 
 }

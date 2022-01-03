@@ -42,7 +42,7 @@ const Button1 = ({type, colorType, buttonType}) => {
          
           case "linkedin":
             return (
-              <button className={css.type1} onClick={() => (window.open(data.links.github))}>
+              <button className={css.type1} onClick={() => (window.open(data.links.linkedin))}>
                 <Icon iconType={"linkedin"}/>
                 <a className={css.aButton}>LinkedIn</a>
               </button>
