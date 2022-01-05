@@ -13,10 +13,14 @@ const About = () => {
   return (
     <div className={css.div}>
       <section id="about" data-aos="fade-right" className={css.section}>
-       
-          <ProfileImg className={css.img}/>
-          <TabPanel className={css.tab}/>
-       
+        <div className={css.divImg}>
+        <ProfileImg className={css.img}/>
+          
+        </div>
+        <div className={css.divTab}>
+
+        <TabPanel className={css.tab}/>
+        </div>
       </section>
     </div>
   );

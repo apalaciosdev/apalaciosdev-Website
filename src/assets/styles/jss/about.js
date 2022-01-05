@@ -4,7 +4,7 @@ const about = {
   div: {
     backgroundColor: Colors.darkBg,
     color: 'white',
-    paddingTop: 30,
+    paddingTop: 100,
 
   },
  
@@ -13,27 +13,32 @@ const about = {
     display: 'grid',
     justifyContent: 'center',
     
-    'grid-template-rows': '1fr',
-    columnGap: 20,
+    
+    columnGap: 80,
   },
 
-  '@media (min-width: 1024px)': {
+  
+  
+  divImg: {
+    display: 'grid',
+    justifyContent: 'right',
+  },
+  
+  
+  divTab: {
+    
+  },
+  
+  '@media (min-width: 780px)': {
     section: {
       'grid-template-columns': 'repeat(2, 1fr)',
  
     },
+    divImg: {
+    display: 'grid',
+    justifyContent: 'none',
   },
-  
-  
-  img: {
-    
   },
-
-  
-  tab: {
-    
-  },
- 
 
 
 };
