@@ -39,7 +39,7 @@ const Header = ({ data, buttonData }) => {
           <FaAngleDoubleDown className="scroll-down"/>
         </Link>
 
-       {/* <ul class="circles"> 
+        {/* <ul class="circles"> 
           <li></li>
           <li></li>
           <li></li>
@@ -50,7 +50,7 @@ const Header = ({ data, buttonData }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>   */}
+        </ul>    */}
 
 
       </div>
