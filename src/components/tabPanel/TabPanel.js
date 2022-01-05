@@ -9,8 +9,8 @@ const TabPanel = () => {
   return (
     <Tabs>
       <TabList>
-        <Tab>Title 1</Tab>
-        <Tab>Title 2</Tab>
+        <Tab>Profile</Tab>
+        <Tab>Skills</Tab>
       </TabList>
 
       <TabsPanel>

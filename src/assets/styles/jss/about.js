@@ -4,28 +4,38 @@ const about = {
   div: {
     backgroundColor: Colors.darkBg,
     color: 'white',
-    paddingTop: 30
+    paddingTop: 30,
+
+  },
+ 
+
+  section: {
+    display: 'grid',
+    justifyContent: 'center',
+    
+    'grid-template-rows': '1fr',
+    columnGap: 20,
   },
 
-  ul: {
-    display: "inline-block",
-    listStyle: "none",
-    "&:hover": {
-      cursor: "auto",
+  '@media (min-width: 1024px)': {
+    section: {
+      'grid-template-columns': 'repeat(2, 1fr)',
+ 
     },
   },
-
-  li: {
-    float: "left",
-    paddingLeft: 20,
-    paddingRight: 20,
+  
+  
+  img: {
+    
   },
 
-  link: {
-    "&:hover": {
-      cursor: "pointer",
-    },
+  
+  tab: {
+    
   },
+ 
+
+
 };
 
 export default about;
