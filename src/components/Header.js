@@ -8,6 +8,8 @@ import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
 import Button1 from './buttons/Button1';
 import Button2 from './buttons/Button2';
 
+
+
 const Header = ({ data, buttonData }) => {
   const useStyles = createUseStyles(header);
   const classes = useStyles();
