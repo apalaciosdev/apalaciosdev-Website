@@ -46,7 +46,9 @@ const about = {
     divTab: {
       display: 'grid',
       justifyContent: 'center',
-     
+      width: '100%',
+      paddingLeft: '15%',
+      paddingRight: '15%',
     },
   },
 

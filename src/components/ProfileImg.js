@@ -1,6 +1,6 @@
 import React from 'react'
 
-import image from '../assets/images/f3.jpg'
+import image from '../assets/images/f3.png'
 import '../assets/styles/css/profileImg.css'
 
 
