@@ -12,6 +12,7 @@ const about = {
   section: {
     display: 'grid',
     justifyContent: 'center',
+    'grid-template-columns': '30% 70%',
     
     
     columnGap: 80,
@@ -26,18 +27,27 @@ const about = {
   
   
   divTab: {
-    
+    width: '70%',
+    display: 'grid',
+    justifyContent: 'center',
   },
   
-  '@media (min-width: 780px)': {
+  '@media (max-width: 1250px)': {
     section: {
-      'grid-template-columns': 'repeat(2, 1fr)',
+      'grid-template-columns': 'repeat(1, 1fr)',
  
     },
+    
     divImg: {
-    display: 'grid',
-    justifyContent: 'none',
-  },
+      display: 'grid',
+      justifyContent: 'center',
+    },
+    
+    divTab: {
+      display: 'grid',
+      justifyContent: 'center',
+     
+    },
   },
 
 
