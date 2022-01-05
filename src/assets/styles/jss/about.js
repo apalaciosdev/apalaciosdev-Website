@@ -4,7 +4,7 @@ const about = {
   div: {
     backgroundColor: Colors.darkBg,
     color: 'white',
-    paddingTop: 300
+    paddingTop: 30
   },
 
   ul: {

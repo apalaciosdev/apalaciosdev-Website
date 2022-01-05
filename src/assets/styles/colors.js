@@ -9,6 +9,6 @@ export const Colors = {
   lightGrey: '#ECEFFC',
   white: '#FFFFFF',
   blueLinked: '#0A66C2',
-  darkBg: '#252E42'
+  darkBg: '#183153'
 };
 
