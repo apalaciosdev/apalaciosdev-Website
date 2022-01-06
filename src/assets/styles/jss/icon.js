@@ -39,6 +39,10 @@ const icon = {
         ? Colors.styledComponents
         : props.bg === "premierePro"
         ? Colors.premierePro
+        : props.bg === "nodeJS"
+        ? Colors.nodeJS
+        : props.bg === "express"
+        ? Colors.express
         : 'none',
     marginTop: 4,
     marginRight: 4,
@@ -84,6 +88,10 @@ const icon = {
       ? Colors.styledComponents
       : props.bgHover === "premierePro"
       ? Colors.premierePro
+      : props.bgHover === "nodeJS"
+      ? Colors.nodeJS
+      : props.bgHover === "express"
+      ? Colors.express
       : 'none',
     },
 

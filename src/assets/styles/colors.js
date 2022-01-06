@@ -20,6 +20,8 @@ export const Colors = {
   js: '#EFD81D',
   mongoDB: '#299F41',
   styledComponents: '#F2C651',
-  premierePro: '#DE71F2'
+  premierePro: '#DE71F2',
+  nodeJS: '#7CC327',
+  express: '#679D5A',
 };
 
