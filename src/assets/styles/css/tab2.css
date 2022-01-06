@@ -1,9 +1,14 @@
 .tab2 > ul{
   list-style:none; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .tab2 > ul > li{
   display: flex;
+
+  width: 50%;
 }
 
 .tab2 > ul > li > p{
