@@ -8,7 +8,14 @@ export const Colors = {
   neon: '#68C4FD',
   lightGrey: '#ECEFFC',
   white: '#FFFFFF',
+  black: '#0A0A0A',
+  transparent: 'transparent',
+  darkBg: '#183153',
+  
+  //Icon Colors
   blueLinked: '#0A66C2',
-  darkBg: '#183153'
+  html: '#DD4B25',
+  css: '#264DE4',
+  photoshop: '#001D34',
 };
 

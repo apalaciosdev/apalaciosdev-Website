@@ -29,7 +29,7 @@ const about = {
   divTab: {
     width: '70%',
     display: 'grid',
-    justifyContent: 'center',
+    justifyContent: 'left',
   },
   
   '@media (max-width: 1250px)': {

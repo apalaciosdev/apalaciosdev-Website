@@ -13,7 +13,7 @@ import Icon from './../Icon';
 
 
 
-const Button2 = ({type, colorType, buttonType}) => {
+const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover}) => {
   console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
@@ -28,7 +28,7 @@ const Button2 = ({type, colorType, buttonType}) => {
           case "github":
             return(  
               <button className={css.type2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"code"}/>
+                <Icon iconType={"code"} bg={iconBg} bgHover={iconBgHover}/>
                 <a className={css.aButton}>Code</a>
               </button>
             );
@@ -36,7 +36,7 @@ const Button2 = ({type, colorType, buttonType}) => {
           case "code":
             return (
               <button className={css.type2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"github"}/>
+                <Icon iconType={"github"} bg={iconBg} bgHover={iconBgHover}/>
                 <a className={css.aButton}>Github</a>
               </button>
             );
@@ -44,7 +44,7 @@ const Button2 = ({type, colorType, buttonType}) => {
           case "linkedin":
             return (
               <button className={css.type2} onClick={() => (window.open(data.links.linkedin))}>
-                <Icon iconType={"linkedin"}/>
+                <Icon iconType={"linkedin"} bg={iconBg} bgHover={iconBgHover}/>
                 <a className={css.aButton}>LinkedIn</a>
               </button>
             );

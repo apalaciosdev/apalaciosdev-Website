@@ -21,10 +21,17 @@ const icon = {
         ? Colors.lightGrey
         : props.bg === "white"
         ? Colors.white
+        : props.bg === "black"
+        ? Colors.black
         : props.bg === "blueLinked"
         ? Colors.blueLinked
-        : props.bg === "blueLinked",
-    size: "25px",
+        : props.bg === "html"
+        ? Colors.html
+        : props.bg === "css"
+        ? Colors.css
+        : props.bg === "photoshop"
+        ? Colors.photoshop
+        : 'none',
     marginTop: 4,
     marginRight: 4,
 
@@ -48,11 +55,20 @@ const icon = {
       ? Colors.lightGrey
       : props.bgHover === "white"
       ? Colors.white
+      : props.bgHover === "black"
+      ? Colors.black
       : props.bgHover === "blueLinked"
       ? Colors.blueLinked
-      : props.bgHover === "blueLinked",
-      size: "25px",
+      : props.bg === "html"
+      ? Colors.html
+      : props.bg === "css"
+      ? Colors.css
+      : props.bg === "photoshop"
+      ? Colors.photoshop
+      : 'none',
     },
+
+    
   },
 };
 
