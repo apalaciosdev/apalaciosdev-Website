@@ -1,13 +1,13 @@
 .tab2 > ul{
   list-style:none; 
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .tab2 > ul > li{
   display: flex;
-
   width: 50%;
 }
 
@@ -15,3 +15,20 @@
   padding-top: 5px;
 }
 
+@media (max-width: 1250px){
+  .tab2 > ul > li{
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px){
+  .tab2 > ul > li{
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px){
+  .tab2 > ul > li{
+    width: 80%;
+  }
+}

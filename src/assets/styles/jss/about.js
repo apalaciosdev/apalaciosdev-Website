@@ -49,6 +49,7 @@ const about = {
       width: '100%',
       paddingLeft: '15%',
       paddingRight: '15%',
+      marginTop: 40
     },
   },
 
