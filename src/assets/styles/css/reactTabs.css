@@ -40,6 +40,7 @@ Original File: https://github.com/reactjs/react-tabs/blob/main/style/react-tabs.
 
 .react-tabs__tab-panel {
   display: none;
+  width: 100%;
 }
 
 .react-tabs__tab-panel--selected {
@@ -47,3 +48,6 @@ Original File: https://github.com/reactjs/react-tabs/blob/main/style/react-tabs.
 }
 
 
+.tab2{
+  width: 100%;
+}
