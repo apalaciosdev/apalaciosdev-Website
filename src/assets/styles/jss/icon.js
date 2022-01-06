@@ -31,9 +31,20 @@ const icon = {
         ? Colors.css
         : props.bg === "photoshop"
         ? Colors.photoshop
+        : props.bg === "js"
+        ? Colors.js
+        : props.bg === "mongoDB"
+        ? Colors.mongoDB
+        : props.bg === "styledComponents"
+        ? Colors.styledComponents
+        : props.bg === "premierePro"
+        ? Colors.premierePro
         : 'none',
     marginTop: 4,
     marginRight: 4,
+    // backgroundColor: 'white',
+    // borderRadius: 100,
+
 
     "&:hover": {
       color: (props) =>
@@ -59,12 +70,20 @@ const icon = {
       ? Colors.black
       : props.bgHover === "blueLinked"
       ? Colors.blueLinked
-      : props.bg === "html"
+      : props.bgHover === "html"
       ? Colors.html
-      : props.bg === "css"
+      : props.bgHover === "css"
       ? Colors.css
-      : props.bg === "photoshop"
+      : props.bgHover === "photoshop"
       ? Colors.photoshop
+      : props.bgHover === "js"
+      ? Colors.js
+      : props.bgHover === "mongoDB"
+      ? Colors.mongoDB
+      : props.bgHover === "styledComponents"
+      ? Colors.styledComponents
+      : props.bgHover === "premierePro"
+      ? Colors.premierePro
       : 'none',
     },
 

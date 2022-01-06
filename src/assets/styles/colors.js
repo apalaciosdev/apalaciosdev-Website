@@ -16,6 +16,10 @@ export const Colors = {
   blueLinked: '#0A66C2',
   html: '#DD4B25',
   css: '#264DE4',
-  photoshop: '#001D34',
+  photoshop: '#2FA3F7',
+  js: '#EFD81D',
+  mongoDB: '#299F41',
+  styledComponents: '#F2C651',
+  premierePro: '#DE71F2'
 };
 

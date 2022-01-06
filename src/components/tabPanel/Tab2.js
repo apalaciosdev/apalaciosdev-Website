@@ -6,9 +6,16 @@ const Tab2 = () => {
   return (
     <div className='tab2'>
       <ul>
-        <li><Icon iconType={'react'} bg={'neon'} size={'30'} className={'tab2-icon'}/>React</li>
+        <li><Icon iconType={'react'} bg={'neon'} size={'30'}/><p>React</p></li>
+        <li><Icon iconType={'nextjs'} bg={'white'} size={'30'}/><p>Next.js</p></li>
+        <li><Icon iconType={'js'} bg={'js'} size={'30'}/><p>JS</p></li>
         <li><Icon iconType={'html'} bg={'html'} size={'30'}/><p>HTML</p></li>
-        <li><Icon iconType={'css'} bg={'css'} size={'30'}/>CSS</li>
+        <li><Icon iconType={'css'} bg={'css'} size={'30'}/><p>CSS</p></li>
+        <li><Icon iconType={'mongodb'} bg={'mongoDB'} size={'30'}/><p>MongoDB</p></li>
+        <li><Icon iconType={'styledcomponents'} bg={'styledComponents'} size={'30'}/><p>Styled Components</p></li>
+        <li><Icon iconType={'jss'} bg={'js'} size={'30'}/><p>JSS</p></li>
+        <li><Icon iconType={'photoshop'} bg={'photoshop'} size={'30'}/><p>Photoshop</p></li>
+        <li><Icon iconType={'premierepro'} bg={'premierePro'} size={'30'}/><p>Premiere Pro</p></li>
       </ul>
     </div>
   )

@@ -1,9 +1,12 @@
 .tab2 > ul{
-  list-style:none;
- 
+  list-style:none; 
 }
 
-.tab2{
-  float: left;
+.tab2 > ul > li{
+  display: flex;
+}
+
+.tab2 > ul > li > p{
+  padding-top: 5px;
 }
 
