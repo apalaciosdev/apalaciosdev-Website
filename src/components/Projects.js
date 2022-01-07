@@ -9,22 +9,23 @@ const Projects = ({ data }) => {
 
   console.log(data)
   return (
-    <>
-      <div className={css.divGradient}>
-        <h1>PORTFOLIO</h1>
+    <div id="projects">
+      <div className={css.divGradient}> 
+      {/* añadir simbolos de </> */}
       </div>
+      <div  className={css.divProjects}>
+        <h1>PORTFOLIO</h1>
         {data.map(info => (
-          <div id="projects" className={css.divProjects}>
             <Card
               title={info.title}
               description={info.description}
               img={info.img}
             />
-          </div>
-          
-        ))}
+            
+            ))}
+      </div>
 
-    </>
+    </div>
   );
 };
 

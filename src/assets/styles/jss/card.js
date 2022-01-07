@@ -12,10 +12,12 @@ const card = {
     display: 'grid',
     justifyItems: 'center',
     border: '1px solid black',
+    maxWidth: 790,
+    width: '70vw',
   },
 
-  divProjects: {
-    
+  imgCard: {
+    height: '80px',
   }
 }
 
