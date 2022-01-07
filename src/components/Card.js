@@ -1,10 +1,12 @@
 import React from 'react'
 
 const Card = ({title, description, img}) => {
-  console.log(title)
+  console.log(`../assets/images/${img}`)
   return (
     <div>
-      <p>{title}</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <img src={`/images/${img}`} alt="" />
     </div>
   )
 }
