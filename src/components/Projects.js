@@ -1,25 +1,29 @@
-import React from 'react'
-;
+import React from "react";
 import projects from "../assets/styles/jss/projects";
 import { createUseStyles } from "react-jss";
-import Card from './Card';
+import Card from "./Card";
 
-
-
-
-const Projects = ({data}) => {
+const Projects = ({ data }) => {
   const useStyles = createUseStyles(projects);
   const css = useStyles();
 
+  console.log(data)
   return (
     <>
       <div className={css.divGradient}></div>
-      <div id="projects" className={css.divProjects}>
-        <Card title={data.gifia.title} description={data.gifia.description} img={data.gifia.img}/>
-      </div>
-    </>
-    
-  )
-}
+        {data.map(info => (
+          <div id="projects" className={css.divProjects}>
+            <Card
+              title={info.title}
+              description={info.description}
+              img={info.img}
+            />
+          </div>
+          
+        ))}
 
-export default Projects
+    </>
+  );
+};
+
+export default Projects;
