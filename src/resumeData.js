@@ -11,7 +11,13 @@ export const data = {
     linkedin: "https://www.linkedin.com/in/aaron-palacios-olea-1b16221b3/",
   },
 
-  about: {
-    profile: ""
+  projects: {
+    gifia: {
+      title: "GIFIA",
+      description: "GIFIA is a minimalist Gif filter and searcher for download or implement Gifs in your web that uses the Giphy API.",
+      img: "gifia-preview.gif"
+    },
+
+    nextjsBlog: {},
   },
 };

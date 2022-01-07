@@ -1,7 +1,10 @@
 import React, {useEffect} from 'react'
-import About from './components/About';
-import Header from './components/Header'
+
 import Navbar from './components/Navbar';
+import Header from './components/Header'
+import About from './components/About';
+import Projects from './components/Projects';
+
 import {data} from './resumeData.js'
 
 import AOS from "aos";
@@ -19,6 +22,7 @@ function App() {
       <Navbar/>
       <Header data={data.main}/>
       <About/>
+      <Projects data={data.projects}/>
     </div>
   );
 }

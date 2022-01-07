@@ -35,13 +35,13 @@ const Header = ({ data, buttonData }) => {
           to="about"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-100}
           duration={1500}
         >
           <FaAngleDoubleDown className="scroll-down"/>
         </Link>
 
-        {/* <ul class="circles"> 
+         {/* <ul class="circles"> 
           <li></li>
           <li></li>
           <li></li>
@@ -52,7 +52,7 @@ const Header = ({ data, buttonData }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>    */}
+        </ul>     */}
 
 
       </div>
