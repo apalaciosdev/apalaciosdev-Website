@@ -11,16 +11,27 @@ const card = {
   divCard: {
     display: 'flex',
     justifyContent: 'center',
+    flexWrap: 'wrap',
     maxWidth: 790,
     width: '70vw',
     maxHeight: 700,
     height: '70vh',
     boxShadow: 'rgba(0, 0, 0, 0.4) 3px 5px 50px',
     marginTop: 80,
+    overflow: 'hidden'
   },
 
   imgCard: {
-    height: '100%',
+    height: '50%',
+    width: '80%',
+  },
+
+  titleCard: {
+    width: '100%',
+  },
+
+  textCard: {
+    width: '100%',
   }
 }
 

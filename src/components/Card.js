@@ -11,8 +11,8 @@ const Card = ({title, description, img}) => {
   return (
     <div className={css.generalDivCard}>
       <div className={css.divCard}>
-        <h3 h3>{title}</h3>
-        <p>{description}</p>
+        <h3 className={css.titleCard}>{title}</h3>
+        <p className={css.textCard}>{description}</p>
         <img src={`/images/${img}`} alt="" className={css.imgCard}/>
       </div>
     </div>
