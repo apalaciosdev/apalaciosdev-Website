@@ -20,7 +20,7 @@ const Footer = () => {
         duration={1500} 
         className={css.upFooter}
       >
-        <Icon iconType={'arrowup'} size={30} className={css.iconFooter}/>
+        <Icon iconType={'arrowup'} size={30} bg={'deadGrey'} className={css.iconFooter}/>
       </Link>
       <div className={css.divFooter}>
         <button className={css.buttonFooter} onClick={() => (window.open('ff'))}>
@@ -29,7 +29,7 @@ const Footer = () => {
         <button className={css.buttonFooter} onClick={() => (window.open('ff'))}>
           <Icon iconType={'linkedin'} size={'30'} bgHover={'grey'}/>
         </button>
-        <button className={css.buttonFooter} onClick={() => (window.open('ff'))}>
+        <button className={css.buttonFooter} onClick={() => (window.open('mailto:apalacios.dev@gmail.com'))}>
           <Icon iconType={'mail'} size={'30'} bgHover={'grey'}/>
         </button>
       </div>

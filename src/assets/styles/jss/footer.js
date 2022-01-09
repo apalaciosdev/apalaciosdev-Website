@@ -14,7 +14,7 @@ const footer = {
     width: '100%',
     marginTop: 100,
     paddingTop: 30,
-    paddingBottom: 25
+    paddingBottom: 10
   },
   
   divFooter: {
