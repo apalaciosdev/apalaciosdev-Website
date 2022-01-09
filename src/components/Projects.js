@@ -9,11 +9,11 @@ const Projects = ({ data }) => {
 
   console.log(data)
   return (
-    <div id="projects">
+    <div >
       <div className={css.divGradient}> 
       {/* añadir simbolos de </> */}
       </div>
-      <div  className={css.divProjects}>
+      <div id="projects" className={css.divProjects}>
         <h1>PORTFOLIO</h1>
         {data.map(info => (
             <Card

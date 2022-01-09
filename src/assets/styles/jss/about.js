@@ -13,7 +13,7 @@ const about = {
     display: 'grid',
     justifyContent: 'center',
     'grid-template-columns': '30% 70%',
-    
+    paddingBottom: 50,
     
     columnGap: 80,
   },

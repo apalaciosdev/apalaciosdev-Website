@@ -13,9 +13,8 @@ const projects = {
   
   divProjects: {
     display: 'grid',
-    
     justifyItems: 'center',
-
+    marginTop: 100
   },
 
   
