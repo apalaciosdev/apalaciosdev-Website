@@ -42,10 +42,13 @@ const icon = {
         : props.bg === "nodeJS"
         ? Colors.nodeJS
         : props.bg === "express"
-        ? Colors.express
+        ? Colors.nodeJS
+        : props.bg === "grey"
+        ? Colors.grey
         : 'none',
     marginTop: 4,
     marginRight: 4,
+    transition: ['ease-in', '0.3s'],
     // backgroundColor: 'white',
     // borderRadius: 100,
 
@@ -92,6 +95,8 @@ const icon = {
       ? Colors.nodeJS
       : props.bgHover === "express"
       ? Colors.express
+      : props.bgHover === "grey"
+      ? Colors.grey
       : 'none',
     },
 

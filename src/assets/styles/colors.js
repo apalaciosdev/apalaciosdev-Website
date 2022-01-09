@@ -11,6 +11,7 @@ export const Colors = {
   black: '#0A0A0A',
   transparent: 'transparent',
   darkBg: '#183153',
+  grey: '#525252',
   
   //Icon Colors
   blueLinked: '#0A66C2',

@@ -3,6 +3,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
+import { IoMdMail } from "react-icons/io";
 import { SiAdobephotoshop, SiStyledcomponents, SiJss, SiMongodb, SiNextdotjs, SiJavascript, SiAdobepremierepro, SiExpress } from "react-icons/si";
 
 import icon from "../assets/styles/jss/icon";
@@ -122,6 +123,13 @@ const Icon = ({iconType, bg, bgHover, size}) => {
           return (
             <IconContext.Provider value={{className: css.icon}}>
               <SiExpress size={size}/>
+            </IconContext.Provider>
+          );
+          
+          case "mail":
+          return (
+            <IconContext.Provider value={{className: css.icon}}>
+              <IoMdMail size={size}/>
             </IconContext.Provider>
           );
 

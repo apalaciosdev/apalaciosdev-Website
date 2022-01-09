@@ -9,10 +9,16 @@ const Footer = () => {
   const css = useStyles();
   return (
     <footer className={css.divFooter}>
-      <p>footer</p>
-      <Icon iconType={'github'}/>
-      <Icon iconType={'linkedin'}/>
-      <Icon iconType={'mail'}/>
+      <button onClick={() => (window.open('ff'))}>
+        <Icon iconType={'github'} size={'30'} bgHover={'grey'}/>
+      </button>
+      <button onClick={() => (window.open('ff'))}>
+        <Icon iconType={'linkedin'} size={'30'} bgHover={'grey'}/>
+      </button>
+      <button onClick={() => (window.open('ff'))}>
+        <Icon iconType={'mail'} size={'30'} bgHover={'grey'}/>
+      </button>
+      <p>Developed in React by apalacios.dev</p>
     </footer>
   )
 }
