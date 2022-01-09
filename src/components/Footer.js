@@ -6,7 +6,7 @@ import Icon from './Icon';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({data}) => {
   const useStyles = createUseStyles(footer);
   const css = useStyles();
   return (
@@ -23,13 +23,13 @@ const Footer = () => {
         <Icon iconType={'arrowup'} size={30} bg={'deadGrey'} className={css.iconFooter}/>
       </Link>
       <div className={css.divFooter}>
-        <button className={css.buttonFooter} onClick={() => (window.open('ff'))}>
+        <button className={css.buttonFooter} onClick={() => (window.open(data.github))}>
           <Icon iconType={'github'} size={'30'} bgHover={'grey'}/>
         </button>
-        <button className={css.buttonFooter} onClick={() => (window.open('ff'))}>
+        <button className={css.buttonFooter} onClick={() => (window.open(data.linkedin))}>
           <Icon iconType={'linkedin'} size={'30'} bgHover={'grey'}/>
         </button>
-        <button className={css.buttonFooter} onClick={() => (window.open('mailto:apalacios.dev@gmail.com'))}>
+        <button className={css.buttonFooter} onClick={() => (window.open(data.mailTo))}>
           <Icon iconType={'mail'} size={'30'} bgHover={'grey'}/>
         </button>
       </div>

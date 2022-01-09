@@ -24,7 +24,7 @@ function App() {
       <Header data={data.main}/>
       <About/>
       <Projects data={data.projects}/>
-      <Footer/>
+      <Footer data={data.links}/>
     </div>
   );
 }
