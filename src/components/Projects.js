@@ -20,6 +20,7 @@ const Projects = ({ data }) => {
               title={info.title}
               description={info.description}
               img={info.img}
+              imgMobile={info.imgMobile}
             />
             
             ))}

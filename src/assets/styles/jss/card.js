@@ -22,8 +22,14 @@ const card = {
   },
 
   imgCard: {
-    height: '50%',
+    height: '10%',
     width: '80%',
+  },
+
+  imgMobileCard: {
+    height: 460,
+    width: 240,
+    borderRadius: '25px'
   },
 
   titleCard: {
