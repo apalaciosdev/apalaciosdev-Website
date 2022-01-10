@@ -28,9 +28,11 @@ const card = {
 
   titleCard: {
     width: '100%',
+    textAlign: 'center',
   },
-
+  
   textCard: {
+    textAlign: 'center',
     width: '100%',
   }
 }
