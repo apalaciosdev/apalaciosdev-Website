@@ -10,14 +10,14 @@ const Card = ({title, description, img, imgMobile}) => {
 
   return (
     <div className={css.generalDivCard}>
+      <h2 className={css.titleCard}>GIFIA</h2>
       <div className={css.divCard}>
-        <h3 className={css.titleCard}>{title}</h3>
-        <p className={css.textCard}>{description}</p>
         <div>
-        <img src={`/images/${img}`} alt="" className={css.imgCard}/>
-        <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
-
+          <img src={`/images/${img}`} alt="" className={css.imgCard}/>
+          <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
         </div>
+        <h3 className={css.titleMiniCard}>{title}</h3>
+        <p className={css.textCard}>{description}</p>
       </div>
     </div>
   )

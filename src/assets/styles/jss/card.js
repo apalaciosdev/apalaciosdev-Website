@@ -5,7 +5,7 @@ const card = {
   generalDivCard: {
     display: 'flex',
     justifyContent: 'center',
-
+    flexWrap: 'wrap',
   },
   
   divCard: {
@@ -14,22 +14,24 @@ const card = {
     flexWrap: 'wrap',
     maxWidth: 790,
     width: '70vw',
-    maxHeight: 700,
-    height: '70vh',
+    // maxHeight: 700,
+    // height: '70vh',
     boxShadow: 'rgba(0, 0, 0, 0.4) 3px 5px 50px',
-    marginTop: 80,
     overflow: 'hidden'
   },
 
   imgCard: {
-    height: '10%',
-    width: '80%',
+    height: '40%',
+    width: '100%',
   },
 
   imgMobileCard: {
     height: 460,
     width: 240,
-    borderRadius: '25px'
+    borderRadius: '37px',
+    marginTop: '-100px',
+    marginLeft: 50,
+    boxShadow: 'rgba(0, 0, 0, 0.4) 30px -20px 50px 3px',
   },
 
   titleCard: {
@@ -40,6 +42,13 @@ const card = {
   textCard: {
     textAlign: 'center',
     width: '100%',
+  },
+  
+  titleCard: {
+    textAlign: 'left',
+    width: '100%',
+    marginLeft: 60,
+    marginTop: 80,
   }
 }
 
