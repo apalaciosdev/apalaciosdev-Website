@@ -48,7 +48,8 @@ const card = {
     textAlign: 'left',
     width: '100%',
     marginLeft: 60,
-    marginTop: 80,
+    marginTop: 80, 
+    
   }
 }
 
