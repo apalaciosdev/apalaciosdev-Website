@@ -21,7 +21,7 @@ const card = {
   },
 
   imgCard: {
-    height: '40%',
+    height: '50%',
     width: '100%',
   },
 
@@ -29,7 +29,7 @@ const card = {
     height: 460,
     width: 240,
     borderRadius: '37px',
-    marginTop: '-100px',
+    marginTop: '-35%',
     marginLeft: 50,
     boxShadow: 'rgba(0, 0, 0, 0.4) 30px -20px 50px 3px',
   },
@@ -55,16 +55,24 @@ const card = {
     flexWrap: 'wrap',
   },
 
+  '@media (max-width: 766px)': {
+    imagesCard: {
+      marginBottom: 65,
+    },
+  },
+ 
+ 
   '@media (max-width: 477px)': {
     imgMobileCard: {
       marginLeft: 0,
-
     },
 
     imagesCard: {
       justifyContent: 'center',
       flexWrap: 'wrap',
+      marginBottom: 90,
     },
+
   },
 }
 
