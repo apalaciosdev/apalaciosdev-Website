@@ -5,7 +5,7 @@ const card = {
   generalDivCard: {
     display: 'flex',
     justifyContent: 'center',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
   },
   
   divCard: {
@@ -34,11 +34,6 @@ const card = {
     boxShadow: 'rgba(0, 0, 0, 0.4) 30px -20px 50px 3px',
   },
 
-  titleCard: {
-    width: '100%',
-    textAlign: 'center',
-  },
-  
   textCard: {
     textAlign: 'center',
     width: '100%',
@@ -46,11 +41,31 @@ const card = {
   
   titleCard: {
     textAlign: 'left',
-    width: '100%',
-    marginLeft: 60,
-    marginTop: 80, 
-    
-  }
+    maxWidth: 790,
+    width: '70vw',
+    marginTop: 100, 
+    marginBottom: 20, 
+    color: Colors.winter,
+    borderBottom: [2, 'solid', Colors.lightGrey],
+  },
+
+  imagesCard: {
+    display: 'flex',
+    justifyContent: 'left',
+    flexWrap: 'wrap',
+  },
+
+  '@media (max-width: 477px)': {
+    imgMobileCard: {
+      marginLeft: 0,
+
+    },
+
+    imagesCard: {
+      justifyContent: 'center',
+      flexWrap: 'wrap',
+    },
+  },
 }
 
 export default card;

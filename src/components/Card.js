@@ -10,9 +10,9 @@ const Card = ({title, description, img, imgMobile}) => {
 
   return (
     <div className={css.generalDivCard}>
-      <h2 className={css.titleCard}>GIFIA</h2>
+      <h2 className={css.titleCard}>{title}</h2>
       <div className={css.divCard}>
-        <div>
+        <div className={css.imagesCard}>
           <img src={`/images/${img}`} alt="" className={css.imgCard}/>
           <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
         </div>
