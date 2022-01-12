@@ -34,9 +34,11 @@ const card = {
   },
 
   textCard: {
-    textAlign: 'center',
+    textAlign: 'left',
     width: '40%',
     marginLeft: 30,
+    marginTop: '-30px',
+    marginBottom: '150px',
   },
   
   titleCard: {
@@ -54,6 +56,10 @@ const card = {
     justifyContent: 'center',
     flexWrap: 'wrap',
     marginTop: 0,
+  },
+
+  tecnologiesCard: {
+
   },
 
   '@media (max-width: 766px)': {

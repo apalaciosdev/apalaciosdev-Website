@@ -17,7 +17,7 @@ const Card = ({title, description, img, imgMobile}) => {
           <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
         <p className={css.textCard}>{description}</p>
         </div>
-        <h3 className={css.titleMiniCard}>{title}</h3>
+        <h3 className={css.tecnologiesCard}>{title}</h3>
       </div>
     </div>
   )
