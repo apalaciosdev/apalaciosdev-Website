@@ -30,13 +30,13 @@ const card = {
     width: 240,
     borderRadius: '37px',
     marginTop: '-35%',
-    marginLeft: 50,
     boxShadow: 'rgba(0, 0, 0, 0.4) 30px -20px 50px 3px',
   },
 
   textCard: {
     textAlign: 'center',
-    width: '100%',
+    width: '40%',
+    marginLeft: 30,
   },
   
   titleCard: {
@@ -51,8 +51,9 @@ const card = {
 
   imagesCard: {
     display: 'flex',
-    justifyContent: 'left',
+    justifyContent: 'center',
     flexWrap: 'wrap',
+    marginTop: 0,
   },
 
   '@media (max-width: 766px)': {
@@ -62,15 +63,21 @@ const card = {
   },
  
  
-  '@media (max-width: 477px)': {
+  '@media (max-width: 860px)': {
     imgMobileCard: {
       marginLeft: 0,
+    },
+
+    textCard: {
+      textAlign: 'center',
+      width: '100%',
+      marginTop: 40,
+
     },
 
     imagesCard: {
       justifyContent: 'center',
       flexWrap: 'wrap',
-      marginBottom: 90,
     },
 
   },
