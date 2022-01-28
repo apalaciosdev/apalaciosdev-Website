@@ -14,7 +14,7 @@ const Card = ({title, description, img, imgMobile, url}) => {
       <div className={css.divCard}>
         <div className={css.imagesCard}>
           <img src={`/images/${img}`} alt="" className={css.imgCard} onClick={() => (window.open(url))}/>
-          <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
+          <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard} onClick={() => (window.open(url))}/>
         <p className={css.textCard}>{description}</p>
         </div>
         <h3 className={css.tecnologiesCard}>{title}</h3>

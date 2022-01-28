@@ -23,6 +23,9 @@ const card = {
   imgCard: {
     height: '50%',
     width: '100%',
+    "&:hover": {
+      cursor: 'pointer'
+    },
   },
 
   imgMobileCard: {
@@ -31,6 +34,9 @@ const card = {
     borderRadius: '37px',
     marginTop: '-35%',
     boxShadow: 'rgba(0, 0, 0, 0.4) 30px -20px 50px 3px',
+    "&:hover": {
+      cursor: 'pointer'
+    },
   },
 
   textCard: {
@@ -56,6 +62,7 @@ const card = {
     justifyContent: 'center',
     flexWrap: 'wrap',
     marginTop: 0,
+    
   },
 
   tecnologiesCard: {
