@@ -4,7 +4,7 @@ import projects from "../assets/styles/jss/projects";
 import { createUseStyles } from "react-jss";
 import card from '../assets/styles/jss/card';
 
-const Card = ({title, description, img, imgMobile}) => {
+const Card = ({title, description, img, imgMobile, url}) => {
   const useStyles = createUseStyles(card);
   const css = useStyles();
 
@@ -13,7 +13,7 @@ const Card = ({title, description, img, imgMobile}) => {
       <h2 className={css.titleCard}>{title}</h2>
       <div className={css.divCard}>
         <div className={css.imagesCard}>
-          <img src={`/images/${img}`} alt="" className={css.imgCard}/>
+          <img src={`/images/${img}`} alt="" className={css.imgCard} onClick={() => (window.open(url))}/>
           <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard}/>
         <p className={css.textCard}>{description}</p>
         </div>

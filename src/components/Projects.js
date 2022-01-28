@@ -21,6 +21,7 @@ const Projects = ({ data }) => {
             description={info.description}
             img={info.img}
             imgMobile={info.imgMobile}
+            url={info.url}
             key={info.title}
           />
         ))}

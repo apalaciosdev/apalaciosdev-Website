@@ -19,6 +19,7 @@ export const data = {
       img: "gifia-preview.gif",
       imgMobile: "gifia-phone.gif",
       tecnologies: ["react", "jest"],
+      url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/"
     },
     
     {
@@ -27,6 +28,7 @@ export const data = {
       img: "gifia-preview.gif",
       imgMobile: "gifia-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
+      url: "https://nextjs-blog-apalacios.netlify.app/post-1"
     },
     
   ],
