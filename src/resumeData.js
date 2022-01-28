@@ -27,6 +27,7 @@ export const data = {
       img: "gifia-preview.gif",
       imgMobile: "gifia-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
-    }
+    },
+    
   ],
 };

@@ -15,7 +15,7 @@ const Header = ({ data, buttonData }) => {
   const classes = useStyles();
 
   return (
-    <div class="area" id="header">
+    <div className="area" id="header">
       <div className={classes.generalDiv}>
         <p className={`${classes.letras} ${'animate__animated animate__fadeInRight'}`}>{data.welcomeTitle}</p>
         <h2 className={`${classes.nameTitle} ${'animate__animated animate__fadeInLeft  animate__delay-1s'}`}>
@@ -41,7 +41,7 @@ const Header = ({ data, buttonData }) => {
           <FaAngleDoubleDown className="scroll-down"/>
         </Link>
 
-        <ul class="circles"> 
+        {/* <ul className="circles"> 
           <li></li>
           <li></li>
           <li></li>
@@ -52,7 +52,7 @@ const Header = ({ data, buttonData }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>     
+        </ul>      */}
 
 
       </div>

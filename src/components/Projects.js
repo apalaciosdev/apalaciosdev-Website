@@ -11,19 +11,19 @@ const Projects = ({ data }) => {
   return (
     <div >
       <div className={css.divGradient}> 
-      {/* añadir simbolos de </> */}
+
       </div>
       <div id="projects" className={css.divProjects}>
         <h1>PORTFOLIO</h1>
         {data.map(info => (
-            <Card
-              title={info.title}
-              description={info.description}
-              img={info.img}
-              imgMobile={info.imgMobile}
-            />
-            
-            ))}
+          <Card
+            title={info.title}
+            description={info.description}
+            img={info.img}
+            imgMobile={info.imgMobile}
+            key={info.title}
+          />
+        ))}
       </div>
 
     </div>
