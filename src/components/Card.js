@@ -18,10 +18,10 @@ const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
           <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard} onClick={() => (window.open(url))}/>
           <p className={css.textCard}>{description}</p>
         </div>
-        <h3 className={css.tecnologiesCard}>Tecnologies</h3>
+        <h3 className={css.tecnologiesCard}>Technologies</h3>
         <div className={css.tecnologiesDiv}>
           {tecnologies.map(info => (
-            <PopupIconHover bg={'grey'} size={45} bgHover={'lightGrey'} info={info} className={css.icon} key={info}/>
+            <PopupIconHover bg={'grey'} size={45} bgHover={'darkOcean'} info={info} key={info}/>
           ))}
         </div>
       </div>

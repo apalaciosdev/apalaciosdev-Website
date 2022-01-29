@@ -4,6 +4,7 @@ import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaAngleDoubleUp } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
+import { HiDownload } from "react-icons/hi";
 import { AiFillFileMarkdown } from "react-icons/ai";
 import { SiAdobephotoshop, SiStyledcomponents, SiJss, SiMongodb, SiNextdotjs, SiJavascript, SiAdobepremierepro, SiExpress, SiJest } from "react-icons/si";
 
@@ -152,6 +153,13 @@ const Icon = ({iconType, bg, bgHover, size}) => {
           return (
             <IconContext.Provider value={{className: css.icon}}>
               <SiJest size={size}/>
+            </IconContext.Provider>
+          );
+          
+          case "cv":
+          return (
+            <IconContext.Provider value={{className: css.icon}}>
+              <HiDownload size={size}/>
             </IconContext.Provider>
           );
 

@@ -11,13 +11,15 @@ const projects = {
   divProjects: {
     display: 'grid',
     justifyItems: 'center',
-    marginTop: 100
+    marginBottom: 100
   },
   
   h1Projects: {
     color: '#95A3A3',
+    marginTop: '100px',
     marginBottom: '-50px',
-    fontFamily: 'Aller-Regular'
+    fontFamily: 'Aller-Regular',
+    'z-index': 2
   },
 
   

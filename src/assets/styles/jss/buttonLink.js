@@ -103,45 +103,53 @@ const ButtonLink = {
 
 
 
-  buttonT3: {
-    borderRadius: 100,
+  type3: {
+    borderRadius: 7,
     fontSize: 20,
     zIndex: 3,
     cursor: 'pointer',
     float: 'left',
-    backgroundColor: colorType => 
-      colorType === 'winter' ? Colors.winter 
-      : colorType === 'navy' ? Colors.navy 
-      : Colors.navy,
-
-    borderColor: colorType => 
-      colorType === 'winter' ? Colors.winter 
-      : colorType === 'navy' ? Colors.navy 
-      : Colors.navy,
-
-   borderStyle: 'solid',
-    
+    backgroundColor: 'transparent',
     color: 'white',
+    border: [2, 'solid', Colors.white],
+
+   
     display: 'flex',
     justifyContent: 'center',
     marginLeft: 5,
     marginRight: 5,
-    paddingTop: 10,
+    paddingTop: 8,
+    width: 170,
+    height: 50,
     
-
-    
-   
-   
-    cursor: 'pointer',
-    boxShadow: 'inset 0 0 0 0 #FFFF',
   
     transition: ['ease-in', '0.2s'],
     
     '&:hover': {
-      boxShadow: 'inset 100px 0 0 0 #FFFF',
-      color: 'black',
+      
+      color: colorType => 
+      colorType === "darkAbsolute"
+      ? Colors.darkAbsolute
+      : colorType === "deadGrey"
+      ? Colors.deadGrey
+      : colorType === "navy"
+      ? Colors.navy
+      : colorType === "darkOcean"
+      ? Colors.darkOcean
+      : colorType === "winter"
+      ? Colors.winter
+      : colorType === "cold"
+      ? Colors.cold
+      : colorType === "neon"
+      ? Colors.neon
+      : colorType === "lightGrey"
+      ? Colors.lightGrey
+      : colorType === "white"
+      ? Colors.white
+      : colorType === "blueLinked"
+      ? Colors.blueLinked
+      : colorType === "blueLinked",
     }
- 
   },
 
 

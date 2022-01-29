@@ -13,7 +13,7 @@ import Icon from './../Icon';
 
 
 
-const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover}) => {
+const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
   console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
@@ -46,6 +46,14 @@ const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover}) => {
               <button className={css.type2} onClick={() => (window.open(data.links.linkedin))}>
                 <Icon iconType={"linkedin"} bg={iconBg} bgHover={iconBgHover}/>
                 <a className={css.aButton}>LinkedIn</a>
+              </button>
+            );
+            
+            case "cv":
+              return (
+                <button className={css.type3} onClick={() => (window.open(data.links.linkedin))}>
+                <Icon iconType={"cv"} bg={iconBg} bgHover={iconBgHover}/>
+                <a className={css.aButton}>{text}</a>
               </button>
             );
 

@@ -6,7 +6,7 @@ const PopupIconHover = ({ bg, size, bgHover, info }) => (
   <Popup
     content={info}
     trigger={
-      <Button>
+      <Button className='iconHover'>
         <Icon
           iconType={info}
           bg={bg}

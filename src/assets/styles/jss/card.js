@@ -2,10 +2,6 @@ import {Colors} from '../colors'
 
 
 const card = {
-  icon: {
-    paddingLeft: 20,
-    paddingRight: 20,
-  },
 
   generalDivCard: {
     display: 'flex',
