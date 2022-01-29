@@ -3,6 +3,7 @@ import React from 'react'
 import { createUseStyles } from "react-jss";
 import card from '../assets/styles/jss/card';
 import Icon from './Icon';
+import PopupIconHover from './PopupIconHover';
 
 const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
   const useStyles = createUseStyles(card);
@@ -20,7 +21,7 @@ const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
         <h3 className={css.tecnologiesCard}>Tecnologies</h3>
         <div className={css.tecnologiesDiv}>
           {tecnologies.map(info => (
-            <Icon iconType={info} bg={'grey'} size={45} bgHover={'lightGrey'}/>
+            <PopupIconHover bg={'grey'} size={45} bgHover={'lightGrey'} info={info} className={css.icon} key={info}/>
           ))}
         </div>
       </div>
