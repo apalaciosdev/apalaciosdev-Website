@@ -16,6 +16,12 @@ const projects = {
     justifyItems: 'center',
     marginTop: 100
   },
+  
+  h1Projects: {
+    color: '#95A3A3',
+    marginBottom: '-50px',
+    fontFamily: 'Aller-Regular'
+  },
 
   
 }

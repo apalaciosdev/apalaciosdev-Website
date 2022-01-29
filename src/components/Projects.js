@@ -14,7 +14,7 @@ const Projects = ({ data }) => {
 
       </div>
       <div id="projects" className={css.divProjects}>
-        <h1>PORTFOLIO</h1>
+        <h1 className={css.h1Projects}>PORTFOLIO</h1>
         {data.map(info => (
           <Card
             title={info.title}
