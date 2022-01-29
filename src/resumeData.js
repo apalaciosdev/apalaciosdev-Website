@@ -25,8 +25,8 @@ export const data = {
     {
       title: "NextJS Blog",
       description: "Blog developed with NextJS using Markdown.",
-      img: "gifia-preview.gif",
-      imgMobile: "gifia-phone.gif",
+      img: "blog-preview.gif",
+      imgMobile: "blog-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
       url: "https://nextjs-blog-apalacios.netlify.app/post-1"
     },
