@@ -22,6 +22,7 @@ const Footer = ({data}) => {
       >
         <Icon iconType={'arrowup'} size={30} bg={'deadGrey'} className={css.iconFooter}/>
       </Link>
+      <div className={css.contactDivFooter}><p className={css.contactFooter}>Contact me</p></div>
       <div className={css.divFooter}>
         <button className={css.buttonFooter} onClick={() => (window.open(data.github))}>
           <Icon iconType={'github'} size={'30'} bgHover={'grey'}/>

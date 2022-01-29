@@ -23,6 +23,7 @@ const footer = {
     alignItems: 'center',
     width: '100%',
     marginTop: 30,
+    marginBottom: 50
   },
   
   buttonFooter: {
@@ -50,7 +51,19 @@ const footer = {
     }
   },
 
-  iconFooter: {
+  contactDivFooter: {
+    width: '100%',
+    display: 'grid',
+    justifyContent: 'center'
+  },
+
+  contactFooter: {
+    width: 180,
+    textAlign: 'center',
+    marginTop: 30,
+    marginBottom: '-20px',
+    fontSize: 20,
+    borderBottom: [2, 'solid', Colors.white],
   }
   
   
