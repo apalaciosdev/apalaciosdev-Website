@@ -20,7 +20,7 @@ const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
         <h3 className={css.tecnologiesCard}>{title}</h3>
         <div>
           {tecnologies.map(info => (
-            <Icon iconType={info} size={30}/>
+            <Icon iconType={info} bg={'grey'} size={30}/>
           ))}
         </div>
       </div>

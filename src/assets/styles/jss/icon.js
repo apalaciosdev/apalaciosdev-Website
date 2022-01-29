@@ -35,7 +35,7 @@ const icon = {
         ? Colors.js
         : props.bg === "mongoDB"
         ? Colors.mongoDB
-        : props.bg === "styledComponents"
+        : props.bg === "styled-components"
         ? Colors.styledComponents
         : props.bg === "premierePro"
         ? Colors.premierePro
