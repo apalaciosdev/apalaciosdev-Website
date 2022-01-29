@@ -85,7 +85,8 @@ const card = {
       textAlign: 'center',
       width: '100%',
       marginTop: 40,
-
+      marginLeft: 10,
+      marginRight: 10,
     },
 
     imagesCard: {
@@ -100,6 +101,7 @@ const card = {
       height: 360,
       width: 180,
       borderRadius: '30px',
+      marginTop: '-150px'
     },
 
     textCard: {
