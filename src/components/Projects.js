@@ -9,12 +9,11 @@ const Projects = ({ data }) => {
 
   console.log(data)
   return (
-    <div >
+    <div>
       <div className={css.divGradient}> 
-
       </div>
       <div id="projects" className={css.divProjects}>
-        <h1 className={css.h1Projects}>PORTFOLIO</h1>
+        <h1 className={css.h1Projects} >PORTFOLIO</h1>
         {data.map(info => (
           <Card
             title={info.title}

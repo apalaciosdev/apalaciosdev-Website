@@ -65,8 +65,11 @@ const card = {
     
   },
 
-  tecnologiesCard: {
-
+  tecnologiesDiv: {
+    height: 80,
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center'
   },
 
   '@media (max-width: 766px)': {
@@ -85,8 +88,8 @@ const card = {
       textAlign: 'center',
       width: '100%',
       marginTop: 40,
-      marginLeft: 10,
-      marginRight: 10,
+      marginLeft: 20,
+      marginRight: 20,
     },
 
     imagesCard: {

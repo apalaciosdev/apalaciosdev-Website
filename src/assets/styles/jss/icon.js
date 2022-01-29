@@ -54,6 +54,7 @@ const icon = {
 
 
     "&:hover": {
+      cursor: 'pointer',
       color: (props) =>
       props.bgHover === "darkAbsolute"
       ? Colors.darkAbsolute

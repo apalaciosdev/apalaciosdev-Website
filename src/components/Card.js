@@ -9,18 +9,18 @@ const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
   const css = useStyles();
   
   return (
-    <div className={css.generalDivCard}>
-      <h2 className={css.titleCard} data-aos="fade-right">{title}</h2>
-      <div className={css.divCard} data-aos="fade-left">
+    <div className={css.generalDivCard} data-aos="zoom-in-up">
+      <h2 className={css.titleCard}>{title}</h2>
+      <div className={css.divCard}>
         <div className={css.imagesCard}>
           <img src={`/images/${img}`} alt="" className={css.imgCard} onClick={() => (window.open(url))}/>
           <img src={`/images/${imgMobile}`} alt="" className={css.imgMobileCard} onClick={() => (window.open(url))}/>
           <p className={css.textCard}>{description}</p>
         </div>
-        <h3 className={css.tecnologiesCard}>{title}</h3>
-        <div>
+        <h3 className={css.tecnologiesCard}>Tecnologies</h3>
+        <div className={css.tecnologiesDiv}>
           {tecnologies.map(info => (
-            <Icon iconType={info} bg={'grey'} size={30}/>
+            <Icon iconType={info} bg={'grey'} size={45} bgHover={'lightGrey'}/>
           ))}
         </div>
       </div>
