@@ -70,7 +70,9 @@ const card = {
     height: 80,
     width: '100%',
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginTop: '-20px',
+    marginBottom: '20px',
   },
 
   '@media (max-width: 766px)': {
