@@ -14,7 +14,7 @@ const Tab2 = () => {
         <li><Icon iconType={'js'} bg={'js'} size={'30'}/><p>JS</p></li>
         <li><Icon iconType={'html'} bg={'html'} size={'30'}/><p>HTML</p></li>
         <li><Icon iconType={'css'} bg={'css'} size={'30'}/><p>CSS</p></li>
-        <li><Icon iconType={'styledcomponents'} bg={'styledComponents'} size={'30'}/><p>Styled Components</p></li>
+        <li><Icon iconType={'styled-components'} bg={'styledComponents'} size={'30'}/><p>Styled Components</p></li>
         <li><Icon iconType={'jss'} bg={'js'} size={'30'}/><p>JSS</p></li>
         <li><Icon iconType={'photoshop'} bg={'photoshop'} size={'30'}/><p>Photoshop</p></li>
         <li><Icon iconType={'premierepro'} bg={'premierePro'} size={'30'}/><p>Premiere Pro</p></li>

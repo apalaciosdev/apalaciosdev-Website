@@ -14,15 +14,6 @@ export const data = {
 
   projects: [
     {
-      title: "GIFIA",
-      description: "GIFIA is a minimalist Gif filter and searcher for download or implement Gifs in your web that uses the Giphy API.",
-      img: "gifia-preview.gif",
-      imgMobile: "gifia-phone.gif",
-      tecnologies: ["react", "jest"],
-      url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/"
-    },
-    
-    {
       title: "NextJS Blog",
       description: "Blog developed with NextJS using Markdown.",
       img: "blog-preview.gif",
@@ -31,5 +22,13 @@ export const data = {
       url: "https://nextjs-blog-apalacios.netlify.app/post-1"
     },
     
+    {
+      title: "GIFIA",
+      description: "GIFIA is a minimalist Gif filter and searcher for download or implement Gifs in your web that uses the Giphy API.",
+      img: "gifia-preview.gif",
+      imgMobile: "gifia-phone.gif",
+      tecnologies: ["react", "jest"],
+      url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/"
+    },
   ],
 };

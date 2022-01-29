@@ -4,6 +4,7 @@ import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaAngleDoubleUp } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
+import { AiFillFileMarkdown } from "react-icons/ai";
 import { SiAdobephotoshop, SiStyledcomponents, SiJss, SiMongodb, SiNextdotjs, SiJavascript, SiAdobepremierepro, SiExpress } from "react-icons/si";
 
 import icon from "../assets/styles/jss/icon";
@@ -91,7 +92,7 @@ const Icon = ({iconType, bg, bgHover, size}) => {
             </IconContext.Provider>
           );
           
-          case "styledcomponents":
+          case "styled-components":
           return (
             <IconContext.Provider value={{className: css.icon}}>
               <SiStyledcomponents size={size}/>
@@ -139,9 +140,16 @@ const Icon = ({iconType, bg, bgHover, size}) => {
               <FaAngleDoubleUp size={size}/>
             </IconContext.Provider>
           );
+          
+          case "mdx":
+          return (
+            <IconContext.Provider value={{className: css.icon}}>
+              <AiFillFileMarkdown size={size}/>
+            </IconContext.Provider>
+          );
 
           default:
-            return <div>You are a User.</div>;
+            return <div>icon not available</div>;
         }
       })()}
     </div>

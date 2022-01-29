@@ -1,13 +1,13 @@
 import React from 'react'
 
-import projects from "../assets/styles/jss/projects";
 import { createUseStyles } from "react-jss";
 import card from '../assets/styles/jss/card';
+import Icon from './Icon';
 
-const Card = ({title, description, img, imgMobile, url}) => {
+const Card = ({title, description, img, imgMobile, url, tecnologies}) => {
   const useStyles = createUseStyles(card);
   const css = useStyles();
-
+  
   return (
     <div className={css.generalDivCard}>
       <h2 className={css.titleCard} data-aos="fade-right">{title}</h2>
@@ -18,6 +18,11 @@ const Card = ({title, description, img, imgMobile, url}) => {
           <p className={css.textCard}>{description}</p>
         </div>
         <h3 className={css.tecnologiesCard}>{title}</h3>
+        <div>
+          {tecnologies.map(info => (
+            <Icon iconType={info} size={30}/>
+          ))}
+        </div>
       </div>
     </div>
   )
