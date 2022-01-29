@@ -94,6 +94,27 @@ const card = {
     },
 
   },
+
+  '@media (max-width: 400px)': {
+    imgMobileCard: {
+      height: 360,
+      width: 180,
+      borderRadius: '30px',
+    },
+
+    textCard: {
+      textAlign: 'center',
+      width: '100%',
+      marginTop: 40,
+
+    },
+
+    imagesCard: {
+      justifyContent: 'center',
+      flexWrap: 'wrap',
+    },
+
+  },
 }
 
 export default card;

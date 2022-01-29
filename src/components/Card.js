@@ -9,7 +9,7 @@ const Card = ({title, description, img, imgMobile, url}) => {
   const css = useStyles();
 
   return (
-    <div className={css.generalDivCard}>
+    <div className={css.generalDivCard} data-aos="fade-left">
       <h2 className={css.titleCard}>{title}</h2>
       <div className={css.divCard}>
         <div className={css.imagesCard}>
