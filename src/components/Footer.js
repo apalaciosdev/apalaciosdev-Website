@@ -3,8 +3,7 @@ import React from 'react'
 import footer from "../assets/styles/jss/footer";
 import { createUseStyles } from "react-jss";
 import Icon from './Icon';
-import { Link, animateScroll as scroll } from "react-scroll";
-import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = ({data}) => {
   const useStyles = createUseStyles(footer);

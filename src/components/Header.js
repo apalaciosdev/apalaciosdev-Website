@@ -3,8 +3,8 @@ import header from "../assets/styles/jss/header";
 
 
 import { createUseStyles } from "react-jss";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { FaAngleDoubleDown, FaGithub } from "react-icons/fa";
+import { Link } from "react-scroll";
+import { FaAngleDoubleDown } from "react-icons/fa";
 import Button1 from './buttons/Button1';
 import Button2 from './buttons/Button2';
 

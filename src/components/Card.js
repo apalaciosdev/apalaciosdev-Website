@@ -2,7 +2,6 @@ import React from 'react'
 
 import { createUseStyles } from "react-jss";
 import card from '../assets/styles/jss/card';
-import Icon from './Icon';
 import PopupIconHover from './PopupIconHover';
 
 const Card = ({title, description, img, imgMobile, url, tecnologies}) => {

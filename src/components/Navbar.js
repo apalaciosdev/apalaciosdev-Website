@@ -1,7 +1,7 @@
 import React from "react";
 import navbar from "../assets/styles/jss/navbar";
 import { createUseStyles } from "react-jss";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const useStyles = createUseStyles(navbar);

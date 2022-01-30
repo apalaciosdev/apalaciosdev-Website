@@ -96,7 +96,6 @@ const card = {
   '@media (max-width: 860px)': {
     imgMobileCard: {
       marginLeft: 0,
-      marginTop: 10,
       marginTop: '-20%',
     },
 

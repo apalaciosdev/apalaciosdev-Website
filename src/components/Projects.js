@@ -13,7 +13,7 @@ const Projects = ({ data }) => {
       <div className={css.divGradient}> 
       </div>
       <div className={css.divProjects}>
-        <h1 className={css.h1Projects} >PORTFOLIO</h1>
+        <h2 className={css.h1Projects} >PORTFOLIO</h2>
         {data.map(info => (
           <Card
             title={info.title}
