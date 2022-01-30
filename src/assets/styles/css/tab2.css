@@ -1,3 +1,8 @@
+.tab2{
+  padding-top: 20px
+}
+
+
 .tab2 > ul{
   list-style:none; 
   display: flex;
