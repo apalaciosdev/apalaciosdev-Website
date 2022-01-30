@@ -34,8 +34,8 @@ export const data = {
     {
       title: "apalacios.dev site",
       description: "apalacios.dev is a personal portfolio website built with react. Is a responsive design, very simple and minimalistic and the most important, all of the components (buttons, icons...) are reusable.",
-      img: "gifia-preview.gif",
-      imgMobile: "gifia-phone.gif",
+      img: "website-preview.gif",
+      imgMobile: "website-phone.gif",
       tecnologies: ["react", "jss", "jest"],
       url: "https://apalacios.dev"
     },
