@@ -68,7 +68,7 @@ const card = {
   },
 
 
-  tecnologiesDiv: {
+  technologiesDiv: {
     height: 80,
     width: '100%',
     display: 'flex',
@@ -77,17 +77,17 @@ const card = {
     marginBottom: '20px',
   },
 
-  tecnologiesCard: {
+  technologiesCard: {
     display: 'grid',
     justifyContent: 'center',
   },
 
-  tecnologiesH3: {
+  technologiesH3: {
     textAlign: 'center'
   },
 
   '@media (max-width: 560px)': {
-    tecnologiesCard: {
+    technologiesCard: {
       marginTop: 60
     },
   },
@@ -140,7 +140,7 @@ const card = {
       flexWrap: 'wrap',
     },
 
-    tecnologiesCard: {
+    technologiesCard: {
       marginTop: 100
     },
   },
