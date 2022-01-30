@@ -16,7 +16,7 @@ const Navbar = () => {
             to="header"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={1500}
             className={css.link}
           >
@@ -42,7 +42,7 @@ const Navbar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={100}
             duration={1500}
             className={css.link}
           >
@@ -50,24 +50,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/*<div className={css.body}>
-          <ul className={css.ul}>
-            <li className={css.li}>
-              <NavLink/>
-            </li>
-            <li className={css.li}><Link
-              className={css.link}
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-            >About</Link></li>
-            <li className={css.li}>CV</li>
-          </ul>
-        </div>*/}
     </header>
   );
 };

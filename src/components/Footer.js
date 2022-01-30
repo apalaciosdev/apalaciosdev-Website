@@ -16,8 +16,8 @@ const Footer = ({data}) => {
         to="header"
         spy={true}
         smooth={true}
-        offset={-100}
-        duration={1500} 
+        offset={0}
+        duration={2500}
         className={css.upFooter}
       >
         <Icon iconType={'arrowup'} size={30} bg={'deadGrey'} className={css.iconFooter}/>
