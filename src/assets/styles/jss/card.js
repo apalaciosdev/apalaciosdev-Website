@@ -67,6 +67,7 @@ const card = {
     
   },
 
+
   tecnologiesDiv: {
     height: 80,
     width: '100%',
@@ -76,9 +77,18 @@ const card = {
     marginBottom: '20px',
   },
 
-  '@media (max-width: 766px)': {
-    imagesCard: {
-      marginBottom: 65,
+  tecnologiesCard: {
+    display: 'grid',
+    justifyContent: 'center',
+  },
+
+  tecnologiesH3: {
+    textAlign: 'center'
+  },
+
+  '@media (max-width: 560px)': {
+    tecnologiesCard: {
+      marginTop: 60
     },
   },
  
@@ -86,6 +96,8 @@ const card = {
   '@media (max-width: 860px)': {
     imgMobileCard: {
       marginLeft: 0,
+      marginTop: 10,
+      marginTop: '-20%',
     },
 
     textCard: {
@@ -94,12 +106,18 @@ const card = {
       marginTop: 40,
       marginLeft: 20,
       marginRight: 20,
+      marginBottom: '20%',
     },
 
     imagesCard: {
       justifyContent: 'center',
       flexWrap: 'wrap',
     },
+
+    imgCard: {
+      height: '30%',
+    },
+    
 
   },
 
@@ -108,14 +126,14 @@ const card = {
       height: 360,
       width: 180,
       borderRadius: '30px',
-      marginTop: '-150px'
+      marginTop: '-30%',
     },
 
     textCard: {
       textAlign: 'center',
       width: '100%',
       marginTop: 40,
-
+  
     },
 
     imagesCard: {
@@ -123,6 +141,9 @@ const card = {
       flexWrap: 'wrap',
     },
 
+    tecnologiesCard: {
+      marginTop: 100
+    },
   },
 }
 

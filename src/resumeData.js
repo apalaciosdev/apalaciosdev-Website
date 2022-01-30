@@ -15,7 +15,7 @@ export const data = {
   projects: [
     {
       title: "NextJS Blog",
-      description: "Blog developed with NextJS using Markdown.",
+      description: "This is a template blog created with NextJS using MDX. You can create simple and beautiful blogs only writing in MDX file where you can also reuse custom components.",
       img: "blog-preview.gif",
       imgMobile: "blog-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
@@ -29,6 +29,15 @@ export const data = {
       imgMobile: "gifia-phone.gif",
       tecnologies: ["react", "jest"],
       url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/"
+    },
+    
+    {
+      title: "apalacios.dev site",
+      description: "apalacios.dev is a personal portfolio website built with react. Is a responsive design, very simple and minimalistic and the most important, all of the components (buttons, icons...) are reusable.",
+      img: "gifia-preview.gif",
+      imgMobile: "gifia-phone.gif",
+      tecnologies: ["react", "jss", "jest"],
+      url: "https://apalacios.dev"
     },
   ],
 };
