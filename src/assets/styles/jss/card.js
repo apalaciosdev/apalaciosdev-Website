@@ -63,6 +63,7 @@ const card = {
     justifyContent: 'center',
     flexWrap: 'wrap',
     marginTop: 0,
+    marginBottom: '-60px',
     
   },
 
