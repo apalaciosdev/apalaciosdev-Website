@@ -43,7 +43,7 @@ const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
             
             case "cv":
               return (
-                <button className={css.type3} onClick={() => "../../assets/CV-Aaron_Palacios_Olea.pdf"}>
+                <button className={css.type3} onClick={() => (window.open("/CV-Aaron_Palacios_Olea.pdf"))}>
                 <Icon iconType={"cv"} bg={iconBg} bgHover={iconBgHover}/>
                 <p className={css.aButton}>{text}</p>
               </button>

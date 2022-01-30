@@ -6,7 +6,7 @@ const Tab1 = () => {
   return (
     <div className="tab1">
       <p>
-        I am a JR Developer motivated to learn new technologies, especially in
+        I'm a JR Developer motivated to learn new technologies, especially in
         JavaScript ecosystem.
       </p>
       <p>
