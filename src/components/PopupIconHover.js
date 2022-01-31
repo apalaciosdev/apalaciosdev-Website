@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Image, Popup } from "semantic-ui-react"
+import { Button, Popup } from "semantic-ui-react"
 import Icon from "./Icon"
 
 const PopupIconHover = ({ bg, size, bgHover, info }) => (

@@ -20,7 +20,6 @@ const ButtonLink = {
     paddingTop: 10,
     width: 120,
     height: 50,
-    zIndex: 2,
   
     transition: ['ease-in', '0.2s'],
     
