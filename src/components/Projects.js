@@ -7,7 +7,6 @@ const Projects = ({ data }) => {
   const useStyles = createUseStyles(projects);
   const css = useStyles();
 
-  console.log(data)
   return (
     <div id="projects">
       <div className={css.divGradient}> 

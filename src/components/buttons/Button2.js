@@ -8,7 +8,6 @@ import Icon from './../Icon';
 
 
 const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
-  console.log(colorType)
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
 
