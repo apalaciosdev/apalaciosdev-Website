@@ -7,7 +7,7 @@ import Icon from './../Icon';
 
 
 
-const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
+const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text, link}) => {
   const useStyles = createUseStyles(buttonLink);
   const css = useStyles(colorType);
 
@@ -23,14 +23,6 @@ const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
                 <p className={css.aButton}>Code</p>
               </button>
             );
-
-          case "code":
-            return (
-              <button className={css.type2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"github"} bg={iconBg} bgHover={iconBgHover}/>
-                <p className={css.aButton}>Github</p>
-              </button>
-            );
           
           case "linkedin":
             return (
@@ -44,6 +36,14 @@ const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text}) => {
               return (
                 <button className={css.type3} onClick={() => (window.open("/CV-Aaron_Palacios_Olea.pdf"))}>
                 <Icon iconType={"cv"} bg={iconBg} bgHover={iconBgHover}/>
+                <p className={css.aButton}>{text}</p>
+              </button>
+            );
+            
+            case "code":
+              return (
+                <button className={css.type4} onClick={() => (window.open(link))}>
+                <Icon iconType={"github"} bg={iconBg} bgHover={iconBgHover}/>
                 <p className={css.aButton}>{text}</p>
               </button>
             );

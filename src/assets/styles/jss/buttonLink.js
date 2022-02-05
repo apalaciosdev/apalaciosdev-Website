@@ -151,6 +151,53 @@ const ButtonLink = {
     }
   },
 
+  type4: {
+    borderRadius: 7,
+    fontSize: 20,
+    zIndex: 3,
+    cursor: 'pointer',
+    backgroundColor: Colors.deadGrey,
+    border: [1, 'solid', Colors.deadGrey],
+
+    color: 'white',
+    display: 'flex',
+    justifyContent: 'center',
+    marginLeft: 5,
+    marginRight: 5,
+    paddingTop: 5,
+    width: 135,
+    height: 40,
+  
+    transition: ['ease-in', '0.2s'],
+    
+    '&:hover': {
+      
+      color: colorType => 
+      colorType === "darkAbsolute"
+      ? Colors.darkAbsolute
+      : colorType === "deadGrey"
+      ? Colors.deadGrey
+      : colorType === "navy"
+      ? Colors.navy
+      : colorType === "darkOcean"
+      ? Colors.darkOcean
+      : colorType === "winter"
+      ? Colors.winter
+      : colorType === "cold"
+      ? Colors.cold
+      : colorType === "neon"
+      ? Colors.neon
+      : colorType === "lightGrey"
+      ? Colors.lightGrey
+      : colorType === "white"
+      ? Colors.white
+      : colorType === "blueLinked"
+      ? Colors.blueLinked
+      : colorType === "blueLinked",
+    }
+ 
+  },
+
 
 
 }

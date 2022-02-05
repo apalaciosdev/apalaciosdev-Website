@@ -19,7 +19,8 @@ export const data = {
       img: "blog-preview.gif",
       imgMobile: "blog-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
-      url: "https://nextjs-blog-apalacios.netlify.app/post-1"
+      url: "https://nextjs-blog-apalacios.netlify.app/post-1",
+      githubUrl: "https://github.com/apalaciosdev/Blog-NextJS-"
     },
     
     {
@@ -28,7 +29,8 @@ export const data = {
       img: "gifia-preview.gif",
       imgMobile: "gifia-phone.gif",
       tecnologies: ["react", "jest"],
-      url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/"
+      url: "https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/",
+      githubUrl: "https://github.com/apalaciosdev/GIFIA"
     },
     
     {
@@ -37,7 +39,8 @@ export const data = {
       img: "website-preview.gif",
       imgMobile: "website-phone.gif",
       tecnologies: ["react", "jss", "jest"],
-      url: "https://apalacios.dev"
+      url: "https://apalacios.dev",
+      githubUrl: "https://github.com/apalaciosdev/apalaciosdev-Website"
     },
   ],
 };

@@ -51,7 +51,7 @@ const Header = ({ data, buttonData }) => {
           <li></li>
           <li></li>
           <li></li>
-        </ul>        
+        </ul>       
 
 
       </div>

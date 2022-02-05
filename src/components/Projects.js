@@ -20,6 +20,7 @@ const Projects = ({ data }) => {
             img={info.img}
             imgMobile={info.imgMobile}
             url={info.url}
+            githubUrl={info.githubUrl}
             tecnologies={info.tecnologies}
             key={info.title}
           />

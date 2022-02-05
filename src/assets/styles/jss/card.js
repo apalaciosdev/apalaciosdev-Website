@@ -46,6 +46,8 @@ const card = {
     marginLeft: 30,
     marginTop: '-30px',
     marginBottom: '150px',
+    display: 'grid',
+    justifyContent: 'none',
   },
   
   titleCard: {
@@ -77,6 +79,14 @@ const card = {
     marginBottom: '20px',
   },
 
+  buttonDiv: {
+    width: '100%',
+    display: 'grid',
+    justifyContent: 'center',
+    marginTop: 10,
+    marginBottom: 40,
+  },
+
   technologiesCard: {
     display: 'grid',
     justifyContent: 'center',
@@ -101,6 +111,8 @@ const card = {
 
     textCard: {
       textAlign: 'center',
+      display: 'grid',
+      justifyContent: 'center',
       width: '100%',
       marginTop: 40,
       marginLeft: 20,

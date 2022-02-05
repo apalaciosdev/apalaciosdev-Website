@@ -162,6 +162,20 @@ const Icon = ({iconType, bg, bgHover, size}) => {
               <HiDownload size={size}/>
             </IconContext.Provider>
           );
+          
+          case "code":
+          return (
+            <IconContext.Provider value={{className: css.icon}}>
+              <HiDownload size={size}/>
+            </IconContext.Provider>
+          );
+
+          case "code-view":
+          return (
+            <IconContext.Provider value={{className: css.icon}}>
+              <BiCodeAlt size={size}/>
+            </IconContext.Provider>
+          );
 
           default:
             return <div>icon not available</div>;
