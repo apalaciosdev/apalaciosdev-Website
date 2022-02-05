@@ -2,7 +2,6 @@ import React from "react";
 
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaAngleDoubleUp } from "react-icons/fa";
-import { BiCodeAlt } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
 import { HiDownload } from "react-icons/hi";
 import { AiFillFileMarkdown } from "react-icons/ai";
@@ -27,13 +26,6 @@ const Icon = ({iconType, bg, bgHover, size}) => {
             return (
               <IconContext.Provider value={{className: css.icon}}>
                 <FaGithub size={size}/>
-              </IconContext.Provider>
-            );
-
-          case "code":
-            return (
-              <IconContext.Provider value={{className: css.icon}}>
-                <BiCodeAlt size={size}/>
               </IconContext.Provider>
             );
           
@@ -160,20 +152,6 @@ const Icon = ({iconType, bg, bgHover, size}) => {
           return (
             <IconContext.Provider value={{className: css.icon}}>
               <HiDownload size={size}/>
-            </IconContext.Provider>
-          );
-          
-          case "code":
-          return (
-            <IconContext.Provider value={{className: css.icon}}>
-              <HiDownload size={size}/>
-            </IconContext.Provider>
-          );
-
-          case "code-view":
-          return (
-            <IconContext.Provider value={{className: css.icon}}>
-              <BiCodeAlt size={size}/>
             </IconContext.Provider>
           );
 

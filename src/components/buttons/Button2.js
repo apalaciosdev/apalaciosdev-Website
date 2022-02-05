@@ -16,13 +16,6 @@ const Button2 = ({type, colorType, buttonType, iconBg, iconBgHover, text, link})
     <div>
       {(() => {
         switch (type) {
-          case "github":
-            return(  
-              <button className={css.type2} onClick={() => (window.open(data.links.github))}>
-                <Icon iconType={"code"} bg={iconBg} bgHover={iconBgHover}/>
-                <p className={css.aButton}>Code</p>
-              </button>
-            );
           
           case "linkedin":
             return (
