@@ -19,7 +19,7 @@ export const data = {
       img: "blog-preview.gif",
       imgMobile: "blog-phone.gif",
       tecnologies: ["nextjs", "styled-components", "mdx"],
-      url: "https://nextjs-blog-apalacios.netlify.app/post-1",
+      url: "https://nextjs-blog-apalacios.netlify.app/how-to-install-wordpress-linux",
       githubUrl: "https://github.com/apalaciosdev/Blog-NextJS-"
     },
     
