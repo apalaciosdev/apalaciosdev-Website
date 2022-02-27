@@ -15,7 +15,7 @@ const Tab1 = () => {
         that can help people.
       </p>
       <p>
-        Actually, I develop projects in MERN Stack (mongoDB, expressJS, reactJS y nodeJS).
+        Actually, I develop projects in MERN Stack (mongoDB, expressJS, reactJS & nodeJS).
       </p>
       <Button2 type={"cv"} colorType={"neon"} text={"Download CV"}></Button2>
     </div>
