@@ -19,13 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Navbar/>
-      <Header data={data.main}/>
-      <About/>
-      <Projects data={data.projects}/>
-      <Footer data={data.links}/>
-    </div>
+   
   );
 }
 
